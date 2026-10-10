@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "lesson_id": "suomi-beginner-lesson-1",
+  "target_language": "fi-FI",
+  "units": [
+    {
+      "id": "fi.greeting.hei",
+      "type": "expression",
+      "canonical_form": "Hei",
+      "translations": {
+        "fr-FR": "Bonjour"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.construction.oletko",
+      "type": "construction",
+      "canonical_form": "Oletko…?",
+      "translations": {
+        "fr-FR": "Est-ce que tu es… ?"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.pronoun.sina",
+      "type": "pronoun",
+      "canonical_form": "sinä",
+      "translations": {
+        "fr-FR": "tu"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.construction.olen",
+      "type": "construction",
+      "canonical_form": "Olen…",
+      "translations": {
+        "fr-FR": "Je suis…"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.construction.en-ole",
+      "type": "construction",
+      "canonical_form": "En ole…",
+      "translations": {
+        "fr-FR": "Je ne suis pas…"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.construction.minun-nimeni-on",
+      "type": "construction",
+      "canonical_form": "Minun nimeni on…",
+      "translations": {
+        "fr-FR": "Je m’appelle…"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.expression.enta-sina",
+      "type": "expression",
+      "canonical_form": "Entä sinä?",
+      "translations": {
+        "fr-FR": "Et toi ?"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.expression.hauska-tavata",
+      "type": "expression",
+      "canonical_form": "Hauska tavata",
+      "translations": {
+        "fr-FR": "Enchanté / Enchantée"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.adjective.suomalainen",
+      "type": "adjective",
+      "canonical_form": "suomalainen",
+      "translations": {
+        "fr-FR": "finlandais / finlandaise"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.adjective.englantilainen",
+      "type": "adjective",
+      "canonical_form": "englantilainen",
+      "translations": {
+        "fr-FR": "anglais / anglaise"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.construction.asutko",
+      "type": "construction",
+      "canonical_form": "Asutko…?",
+      "translations": {
+        "fr-FR": "Est-ce que tu habites… ?"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.construction.asun",
+      "type": "construction",
+      "canonical_form": "Asun…",
+      "translations": {
+        "fr-FR": "J’habite…"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.construction.en-asu",
+      "type": "construction",
+      "canonical_form": "En asu…",
+      "translations": {
+        "fr-FR": "Je n’habite pas…"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.construction.tyoskentelen",
+      "type": "construction",
+      "canonical_form": "Työskentelen…",
+      "translations": {
+        "fr-FR": "Je travaille…"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.response.kylla",
+      "type": "response",
+      "canonical_form": "Kyllä",
+      "translations": {
+        "fr-FR": "Oui"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.noun.kahvila",
+      "type": "noun",
+      "canonical_form": "kahvila",
+      "translations": {
+        "fr-FR": "café (lieu)"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.conjunction.ja",
+      "type": "conjunction",
+      "canonical_form": "ja",
+      "translations": {
+        "fr-FR": "et"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.conjunction.mutta",
+      "type": "conjunction",
+      "canonical_form": "mutta",
+      "translations": {
+        "fr-FR": "mais"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true
+    },
+    {
+      "id": "fi.place.helsinki",
+      "type": "proper_noun",
+      "canonical_form": "Helsinki",
+      "translations": {
+        "fr-FR": "Helsinki"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": false
+    },
+    {
+      "id": "fi.place.lontoo",
+      "type": "proper_noun",
+      "canonical_form": "Lontoo",
+      "translations": {
+        "fr-FR": "Londres"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": false
+    },
+    {
+      "id": "fi.place.espoo",
+      "type": "proper_noun",
+      "canonical_form": "Espoo",
+      "translations": {
+        "fr-FR": "Espoo"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": false
+    }
+  ]
+}

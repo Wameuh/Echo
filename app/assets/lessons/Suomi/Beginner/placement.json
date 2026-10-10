@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "course_id": "suomi-beginner",
+  "mastery_rule": "all_questions_correct",
+  "lesson_tests": [
+    {
+      "lesson_id": "suomi-beginner-lesson-1",
+      "lesson_number": 1,
+      "title": {"fr-FR": "Rencontrer quelqu’un dans un café"},
+      "questions": [
+        {
+          "id": "placement-lesson-1-q1",
+          "prompt": {"fr-FR": "Que signifie « Hei » ?"},
+          "choices": [
+            {"id": "hello", "text": {"fr-FR": "Bonjour"}},
+            {"id": "thanks", "text": {"fr-FR": "Merci"}},
+            {"id": "coffee", "text": {"fr-FR": "Café"}}
+          ],
+          "correct_choice_id": "hello"
+        },
+        {
+          "id": "placement-lesson-1-q2",
+          "prompt": {"fr-FR": "Comment dit-on « Je m’appelle Laura » ?"},
+          "choices": [
+            {"id": "name", "text": {"fr-FR": "Minun nimeni on Laura."}},
+            {"id": "live", "text": {"fr-FR": "Asun Helsingissä."}},
+            {"id": "coffee", "text": {"fr-FR": "Haluaisin kahvia."}}
+          ],
+          "correct_choice_id": "name"
+        }
+      ]
+    },
+    {
+      "lesson_id": "suomi-beginner-lesson-2",
+      "lesson_number": 2,
+      "title": {"fr-FR": "Salutations et bien-être"},
+      "questions": [
+        {
+          "id": "placement-lesson-2-q1",
+          "prompt": {"fr-FR": "Que demande « Mitä sinulle kuuluu? » ?"},
+          "choices": [
+            {"id": "wellbeing", "text": {"fr-FR": "Comment vas-tu ?"}},
+            {"id": "time", "text": {"fr-FR": "As-tu le temps ?"}},
+            {"id": "name", "text": {"fr-FR": "Comment t’appelles-tu ?"}}
+          ],
+          "correct_choice_id": "wellbeing"
+        },
+        {
+          "id": "placement-lesson-2-q2",
+          "prompt": {"fr-FR": "Quand emploie-t-on « Hyvää huomenta » ?"},
+          "choices": [
+            {"id": "morning", "text": {"fr-FR": "Le matin"}},
+            {"id": "evening", "text": {"fr-FR": "Le soir"}},
+            {"id": "goodbye", "text": {"fr-FR": "Pour prendre congé"}}
+          ],
+          "correct_choice_id": "morning"
+        }
+      ]
+    },
+    {
+      "lesson_id": "suomi-beginner-lesson-3",
+      "lesson_number": 3,
+      "title": {"fr-FR": "Nombres et commander au café"},
+      "questions": [
+        {
+          "id": "placement-lesson-3-q1",
+          "prompt": {"fr-FR": "Quel nombre signifie « kaksi » ?"},
+          "choices": [
+            {"id": "one", "text": {"fr-FR": "Un"}},
+            {"id": "two", "text": {"fr-FR": "Deux"}},
+            {"id": "ten", "text": {"fr-FR": "Dix"}}
+          ],
+          "correct_choice_id": "two"
+        },
+        {
+          "id": "placement-lesson-3-q2",
+          "prompt": {"fr-FR": "Que signifie « Se maksaa kymmenen euroa » ?"},
+          "choices": [
+            {"id": "price", "text": {"fr-FR": "Cela coûte dix euros."}},
+            {"id": "order", "text": {"fr-FR": "Je voudrais dix cafés."}},
+            {"id": "change", "text": {"fr-FR": "Voici dix euros."}}
+          ],
+          "correct_choice_id": "price"
+        }
+      ]
+    },
+    {
+      "lesson_id": "suomi-beginner-lesson-4",
+      "lesson_number": 4,
+      "title": {"fr-FR": "Demander son chemin"},
+      "questions": [
+        {
+          "id": "placement-lesson-4-q1",
+          "prompt": {"fr-FR": "Que demande « Missä rautatieasema on? » ?"},
+          "choices": [
+            {"id": "station", "text": {"fr-FR": "Où est la gare ?"}},
+            {"id": "train", "text": {"fr-FR": "Quand part le train ?"}},
+            {"id": "ticket", "text": {"fr-FR": "Où acheter un billet ?"}}
+          ],
+          "correct_choice_id": "station"
+        },
+        {
+          "id": "placement-lesson-4-q2",
+          "prompt": {"fr-FR": "Que faut-il faire si l’on entend « käänny vasemmalle » ?"},
+          "choices": [
+            {"id": "left", "text": {"fr-FR": "Tourner à gauche"}},
+            {"id": "right", "text": {"fr-FR": "Tourner à droite"}},
+            {"id": "straight", "text": {"fr-FR": "Continuer tout droit"}}
+          ],
+          "correct_choice_id": "left"
+        }
+      ]
+    },
+    {
+      "lesson_id": "suomi-beginner-lesson-5",
+      "lesson_number": 5,
+      "title": {"fr-FR": "L’heure et les rendez-vous"},
+      "questions": [
+        {
+          "id": "placement-lesson-5-q1",
+          "prompt": {"fr-FR": "Que demande « Paljonko kello on? » ?"},
+          "choices": [
+            {"id": "time", "text": {"fr-FR": "Quelle heure est-il ?"}},
+            {"id": "price", "text": {"fr-FR": "Combien cela coûte-t-il ?"}},
+            {"id": "duration", "text": {"fr-FR": "Combien de temps cela dure-t-il ?"}}
+          ],
+          "correct_choice_id": "time"
+        },
+        {
+          "id": "placement-lesson-5-q2",
+          "prompt": {"fr-FR": "À quelle heure correspond « puoli neljältä » ?"},
+          "choices": [
+            {"id": "three", "text": {"fr-FR": "3 h"}},
+            {"id": "three-thirty", "text": {"fr-FR": "3 h 30"}},
+            {"id": "four-thirty", "text": {"fr-FR": "4 h 30"}}
+          ],
+          "correct_choice_id": "three-thirty"
+        }
+      ]
+    },
+    {
+      "lesson_id": "suomi-beginner-lesson-6",
+      "lesson_number": 6,
+      "title": {"fr-FR": "Acheter des vêtements"},
+      "questions": [
+        {
+          "id": "placement-lesson-6-q1",
+          "prompt": {"fr-FR": "Que cherche la personne qui dit « Etsin sinistä paitaa » ?"},
+          "choices": [
+            {"id": "shirt", "text": {"fr-FR": "Une chemise bleue"}},
+            {"id": "trousers", "text": {"fr-FR": "Un pantalon noir"}},
+            {"id": "coat", "text": {"fr-FR": "Un manteau rouge"}}
+          ],
+          "correct_choice_id": "shirt"
+        },
+        {
+          "id": "placement-lesson-6-q2",
+          "prompt": {"fr-FR": "Que signifie « liian kallis » ?"},
+          "choices": [
+            {"id": "expensive", "text": {"fr-FR": "Trop cher"}},
+            {"id": "small", "text": {"fr-FR": "Trop petit"}},
+            {"id": "large", "text": {"fr-FR": "Trop grand"}}
+          ],
+          "correct_choice_id": "expensive"
+        }
+      ]
+    },
+    {
+      "lesson_id": "suomi-beginner-lesson-7",
+      "lesson_number": 7,
+      "title": {"fr-FR": "Commander au restaurant"},
+      "questions": [
+        {
+          "id": "placement-lesson-7-q1",
+          "prompt": {"fr-FR": "Que désigne « ruokalista » ?"},
+          "choices": [
+            {"id": "menu", "text": {"fr-FR": "Le menu"}},
+            {"id": "bill", "text": {"fr-FR": "L’addition"}},
+            {"id": "table", "text": {"fr-FR": "La table"}}
+          ],
+          "correct_choice_id": "menu"
+        },
+        {
+          "id": "placement-lesson-7-q2",
+          "prompt": {"fr-FR": "Que demande « Mitä suosittelette? » ?"},
+          "choices": [
+            {"id": "recommend", "text": {"fr-FR": "Que recommandez-vous ?"}},
+            {"id": "order", "text": {"fr-FR": "Qu’avez-vous commandé ?"}},
+            {"id": "cost", "text": {"fr-FR": "Combien cela coûte-t-il ?"}}
+          ],
+          "correct_choice_id": "recommend"
+        }
+      ]
+    },
+    {
+      "lesson_id": "suomi-beginner-lesson-8",
+      "lesson_number": 8,
+      "title": {"fr-FR": "Arriver à l’hôtel"},
+      "questions": [
+        {
+          "id": "placement-lesson-8-q1",
+          "prompt": {"fr-FR": "Que signifie « Minulla on varaus » ?"},
+          "choices": [
+            {"id": "reservation", "text": {"fr-FR": "J’ai une réservation."}},
+            {"id": "room", "text": {"fr-FR": "J’ai une chambre."}},
+            {"id": "key", "text": {"fr-FR": "J’ai la clé."}}
+          ],
+          "correct_choice_id": "reservation"
+        },
+        {
+          "id": "placement-lesson-8-q2",
+          "prompt": {"fr-FR": "Que demande « Kuinka monta yötä? » ?"},
+          "choices": [
+            {"id": "nights", "text": {"fr-FR": "Combien de nuits ?"}},
+            {"id": "people", "text": {"fr-FR": "Combien de personnes ?"}},
+            {"id": "rooms", "text": {"fr-FR": "Combien de chambres ?"}}
+          ],
+          "correct_choice_id": "nights"
+        }
+      ]
+    },
+    {
+      "lesson_id": "suomi-beginner-lesson-9",
+      "lesson_number": 9,
+      "title": {"fr-FR": "Acheter un billet de train"},
+      "questions": [
+        {
+          "id": "placement-lesson-9-q1",
+          "prompt": {"fr-FR": "Quel type de billet est un « menolippu » ?"},
+          "choices": [
+            {"id": "one-way", "text": {"fr-FR": "Un aller simple"}},
+            {"id": "return", "text": {"fr-FR": "Un aller-retour"}},
+            {"id": "day", "text": {"fr-FR": "Un billet journalier"}}
+          ],
+          "correct_choice_id": "one-way"
+        },
+        {
+          "id": "placement-lesson-9-q2",
+          "prompt": {"fr-FR": "Que demande « Miltä laiturilta juna lähtee? » ?"},
+          "choices": [
+            {"id": "platform", "text": {"fr-FR": "De quel quai part le train ?"}},
+            {"id": "time", "text": {"fr-FR": "À quelle heure part le train ?"}},
+            {"id": "destination", "text": {"fr-FR": "Où va le train ?"}}
+          ],
+          "correct_choice_id": "platform"
+        }
+      ]
+    },
+    {
+      "lesson_id": "suomi-beginner-lesson-10",
+      "lesson_number": 10,
+      "title": {"fr-FR": "Proposer une activité"},
+      "questions": [
+        {
+          "id": "placement-lesson-10-q1",
+          "prompt": {"fr-FR": "Que propose « Haluatko mennä elokuviin? » ?"},
+          "choices": [
+            {"id": "cinema", "text": {"fr-FR": "D’aller au cinéma"}},
+            {"id": "restaurant", "text": {"fr-FR": "D’aller au restaurant"}},
+            {"id": "station", "text": {"fr-FR": "D’aller à la gare"}}
+          ],
+          "correct_choice_id": "cinema"
+        },
+        {
+          "id": "placement-lesson-10-q2",
+          "prompt": {"fr-FR": "Quelle réponse accepte volontiers une invitation ?"},
+          "choices": [
+            {"id": "gladly", "text": {"fr-FR": "Kyllä, mielelläni."}},
+            {"id": "later", "text": {"fr-FR": "Nähdään myöhemmin."}},
+            {"id": "time", "text": {"fr-FR": "Mihin aikaan?"}}
+          ],
+          "correct_choice_id": "gladly"
+        }
+      ]
+    }
+  ]
+}

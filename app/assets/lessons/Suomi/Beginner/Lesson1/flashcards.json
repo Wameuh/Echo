@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "lesson_id": "suomi-beginner-lesson-1",
+  "policy": {
+    "automatic_creation_on_token_touch": false,
+    "selection_factors": [
+      "central",
+      "transferable",
+      "difficult",
+      "needed_soon",
+      "repeatedly_misunderstood"
+    ],
+    "excluded": [
+      "character_names",
+      "incidental_details"
+    ]
+  },
+  "cards": [
+    {
+      "id": "card-construction-oletko",
+      "unit_id": "fi.construction.oletko",
+      "front": {
+        "type": "meaning",
+        "fr-FR": "Est-ce que tu es finlandais ?"
+      },
+      "back": {
+        "type": "target",
+        "fi-FI": "Oletko suomalainen?"
+      },
+      "creation": "initial_candidate",
+      "audio_status": "not_generated"
+    },
+    {
+      "id": "card-construction-olen",
+      "unit_id": "fi.construction.olen",
+      "front": {
+        "type": "meaning",
+        "fr-FR": "Je suis finlandaise."
+      },
+      "back": {
+        "type": "target",
+        "fi-FI": "Olen suomalainen."
+      },
+      "creation": "initial_candidate",
+      "audio_status": "not_generated"
+    },
+    {
+      "id": "card-construction-en-ole",
+      "unit_id": "fi.construction.en-ole",
+      "front": {
+        "type": "meaning",
+        "fr-FR": "Je ne suis pas anglais."
+      },
+      "back": {
+        "type": "target",
+        "fi-FI": "En ole englantilainen."
+      },
+      "creation": "initial_candidate",
+      "audio_status": "not_generated"
+    },
+    {
+      "id": "card-construction-minun-nimeni-on",
+      "unit_id": "fi.construction.minun-nimeni-on",
+      "front": {
+        "type": "meaning",
+        "fr-FR": "Je m’appelle Anna."
+      },
+      "back": {
+        "type": "target",
+        "fi-FI": "Minun nimeni on Anna."
+      },
+      "creation": "initial_candidate",
+      "audio_status": "not_generated"
+    },
+    {
+      "id": "card-expression-enta-sina",
+      "unit_id": "fi.expression.enta-sina",
+      "front": {
+        "type": "meaning",
+        "fr-FR": "Je suis Anna. Et toi ?"
+      },
+      "back": {
+        "type": "target",
+        "fi-FI": "Minä olen Anna. Entä sinä?"
+      },
+      "creation": "initial_candidate",
+      "audio_status": "not_generated"
+    },
+    {
+      "id": "card-expression-hauska-tavata",
+      "unit_id": "fi.expression.hauska-tavata",
+      "front": {
+        "type": "meaning",
+        "fr-FR": "Bonjour, enchantée."
+      },
+      "back": {
+        "type": "target",
+        "fi-FI": "Hei, hauska tavata."
+      },
+      "creation": "initial_candidate",
+      "audio_status": "not_generated"
+    },
+    {
+      "id": "card-construction-asutko",
+      "unit_id": "fi.construction.asutko",
+      "front": {
+        "type": "meaning",
+        "fr-FR": "Est-ce que tu habites à Helsinki ?"
+      },
+      "back": {
+        "type": "target",
+        "fi-FI": "Asutko Helsingissä?"
+      },
+      "creation": "initial_candidate",
+      "audio_status": "not_generated"
+    },
+    {
+      "id": "card-construction-asun",
+      "unit_id": "fi.construction.asun",
+      "front": {
+        "type": "meaning",
+        "fr-FR": "J’habite à Helsinki."
+      },
+      "back": {
+        "type": "target",
+        "fi-FI": "Asun Helsingissä."
+      },
+      "creation": "initial_candidate",
+      "audio_status": "not_generated"
+    },
+    {
+      "id": "card-construction-en-asu",
+      "unit_id": "fi.construction.en-asu",
+      "front": {
+        "type": "meaning",
+        "fr-FR": "Je n’habite pas à Londres."
+      },
+      "back": {
+        "type": "target",
+        "fi-FI": "En asu Lontoossa."
+      },
+      "creation": "initial_candidate",
+      "audio_status": "not_generated"
+    },
+    {
+      "id": "card-adjective-suomalainen",
+      "unit_id": "fi.adjective.suomalainen",
+      "front": {
+        "type": "meaning",
+        "fr-FR": "Je suis finlandaise et j’habite à Helsinki."
+      },
+      "back": {
+        "type": "target",
+        "fi-FI": "Olen suomalainen ja asun Helsingissä."
+      },
+      "creation": "initial_candidate",
+      "audio_status": "not_generated"
+    },
+    {
+      "id": "card-adjective-englantilainen",
+      "unit_id": "fi.adjective.englantilainen",
+      "front": {
+        "type": "meaning",
+        "fr-FR": "Je suis anglais et j’habite à Londres."
+      },
+      "back": {
+        "type": "target",
+        "fi-FI": "Olen englantilainen ja asun Lontoossa."
+      },
+      "creation": "initial_candidate",
+      "audio_status": "not_generated"
+    }
+  ],
+  "optional_candidates": [
+    "fi.conjunction.ja",
+    "fi.noun.kahvila"
+  ]
+}

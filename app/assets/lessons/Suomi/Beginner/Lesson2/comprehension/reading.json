@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "lesson_id": "suomi-beginner-lesson-2",
+  "questions": [
+    {
+      "id": "reading-question-001",
+      "type": "short_answer",
+      "prompt": {
+        "fr-FR": "Que dit le personnage dans la phrase 1 ?"
+      },
+      "accepted_answers": [
+        "Bonjour (le matin)."
+      ],
+      "evidence_sentence_id": "reading-sentence-001",
+      "unit_ids": [
+        "fi.lesson-002.introduced.01-hyvaa-huomenta"
+      ],
+      "review_status": "needs_human_review"
+    },
+    {
+      "id": "reading-question-002",
+      "type": "short_answer",
+      "prompt": {
+        "fr-FR": "Que dit le personnage dans la phrase 2 ?"
+      },
+      "accepted_answers": [
+        "Bonjour (dans la journée)."
+      ],
+      "evidence_sentence_id": "reading-sentence-002",
+      "unit_ids": [
+        "fi.lesson-002.introduced.02-hyvaa-paivaa"
+      ],
+      "review_status": "needs_human_review"
+    },
+    {
+      "id": "reading-question-003",
+      "type": "short_answer",
+      "prompt": {
+        "fr-FR": "Que dit le personnage dans la phrase 3 ?"
+      },
+      "accepted_answers": [
+        "Bonsoir."
+      ],
+      "evidence_sentence_id": "reading-sentence-003",
+      "unit_ids": [
+        "fi.lesson-002.introduced.03-hyvaa-iltaa"
+      ],
+      "review_status": "needs_human_review"
+    },
+    {
+      "id": "reading-question-004",
+      "type": "short_answer",
+      "prompt": {
+        "fr-FR": "Que dit le personnage dans la phrase 4 ?"
+      },
+      "accepted_answers": [
+        "Comment vas-tu ?"
+      ],
+      "evidence_sentence_id": "reading-sentence-004",
+      "unit_ids": [
+        "fi.lesson-002.introduced.04-mita-kuuluu"
+      ],
+      "review_status": "needs_human_review"
+    }
+  ]
+}

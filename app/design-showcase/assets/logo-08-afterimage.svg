@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="t8">
+  <title id="t8">Echo Afterimage</title>
+  <rect x="6" y="6" width="116" height="116" rx="38" fill="#17352C"/>
+  <path d="M27 67c1-19 13-31 30-31 17 0 28 11 29 28H27c1 18 14 29 31 29 10 0 19-4 25-11" fill="none" stroke="#A9D8E9" stroke-width="8" stroke-linecap="round" opacity=".4" transform="translate(15 -8)"/>
+  <path d="M27 67c1-19 13-31 30-31 17 0 28 11 29 28H27c1 18 14 29 31 29 10 0 19-4 25-11" fill="none" stroke="#D8F277" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="102" cy="72" r="8" fill="#FF7657"/>
+</svg>

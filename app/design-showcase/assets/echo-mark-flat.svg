@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Symbole Echo monochrome</title>
+  <desc id="desc">Six barres verticales représentent une empreinte vocale.</desc>
+  <path d="M23 53v22M39 39v50M55 23v82M71 35v58M87 46v36M103 55v18" fill="none" stroke="currentColor" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="104" cy="98" r="9" fill="currentColor"/>
+</svg>

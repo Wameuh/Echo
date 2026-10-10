@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "lesson_id": "suomi-beginner-lesson-1",
+  "id": "lesson1-meeting-at-work",
+  "title": {
+    "fr-FR": "La rencontre au café"
+  },
+  "presentation": "ui_bubbles_over_image",
+  "media_status": "generated",
+  "panels": [
+    {
+      "id": "story-panel-001",
+      "image": "art/comic-01-arrival.png",
+      "caption": {
+        "fr-FR": "Un matin d’hiver, Anna pousse la porte d’un café d’Helsinki. Mikko semble l’attendre."
+      },
+      "image_label": {
+        "fr-FR": "Anna entre dans un café enneigé d’Helsinki, où Mikko l’accueille."
+      },
+      "bubbles": [
+        {"line_id": "line-002", "speaker": "mikko", "anchor": "upper_right"},
+        {"line_id": "line-003", "speaker": "anna", "anchor": "upper_left"}
+      ]
+    },
+    {
+      "id": "story-panel-002",
+      "image": "art/comic-02-greeting.png",
+      "caption": {
+        "fr-FR": "Ils mettent enfin un nom sur leurs visages."
+      },
+      "image_label": {
+        "fr-FR": "Anna et Mikko se serrent la main et sourient dans le café."
+      },
+      "bubbles": [
+        {"line_id": "line-004", "speaker": "mikko", "anchor": "upper_right"},
+        {"line_id": "line-005", "speaker": "anna", "anchor": "upper_left"}
+      ]
+    },
+    {
+      "id": "story-panel-003",
+      "image": "art/comic-03-chat.png",
+      "caption": {
+        "fr-FR": "Installés à une table, ils découvrent ce qui relie Londres et Helsinki."
+      },
+      "image_label": {
+        "fr-FR": "Anna et Mikko discutent à une table, près de la valise de voyage d’Anna."
+      },
+      "bubbles": [
+        {"line_id": "line-009", "speaker": "anna", "anchor": "upper_left"},
+        {"line_id": "line-010", "speaker": "mikko", "anchor": "lower_right"},
+        {"line_id": "line-011", "speaker": "anna", "anchor": "lower_left"}
+      ]
+    }
+  ]
+}

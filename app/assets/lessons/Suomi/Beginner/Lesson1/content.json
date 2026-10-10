@@ -1,0 +1,2749 @@
+{
+  "schema_version": 1,
+  "lesson": {
+    "id": "suomi-beginner-lesson-1",
+    "title": "Rencontrer quelqu’un dans un café",
+    "level": "A1",
+    "course_level": "beginner",
+    "target_language": "fi-FI",
+    "instruction_language": "fr-FR",
+    "register": "kirjakieli",
+    "learning_objectives": [
+      "saluer quelqu’un et se présenter en finnois standard",
+      "demander et indiquer la nationalité",
+      "demander et indiquer où une personne habite et travaille",
+      "prononcer les mots nouveaux en respectant l’accent initial et les voyelles longues"
+    ],
+    "sections": [
+      {
+        "id": "opening_conversation",
+        "title": "Conversation d’ouverture"
+      },
+      {
+        "id": "guided_practice",
+        "title": "Pratique guidée"
+      },
+      {
+        "id": "final_conversation_anna",
+        "title": "Dialogue final — l’apprenant joue Anna"
+      },
+      {
+        "id": "final_conversation_mikko",
+        "title": "Dialogue final — l’apprenant joue Mikko"
+      }
+    ],
+    "pronunciation_notes": [
+      "En finnois, l’accent principal tombe normalement sur la première syllabe.",
+      "Les voyelles longues et les consonnes doubles durent plus longtemps que les simples."
+    ]
+  },
+  "dialogue": [
+    {
+      "id": "line-001",
+      "section": "opening_conversation",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Écoutez cette conversation entre Anna et Mikko. Ils se rencontrent pour la première fois.",
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-001",
+      "localized_text": {
+        "fr-FR": "Écoutez cette conversation entre Anna et Mikko. Ils se rencontrent pour la première fois."
+      },
+      "translations": {
+        "fr-FR": "Écoutez cette conversation entre Anna et Mikko. Ils se rencontrent pour la première fois."
+      }
+    },
+    {
+      "id": "line-002",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Hei. Oletko sinä Anna?",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Bonjour. Est-ce que tu es Anna ?"
+      },
+      "unit_ids": [
+        "fi.construction.oletko",
+        "fi.greeting.hei"
+      ]
+    },
+    {
+      "id": "line-003",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Kyllä, minä olen Anna. Entä sinä?",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Oui, je suis Anna. Et toi ?"
+      },
+      "unit_ids": [
+        "fi.expression.enta-sina",
+        "fi.response.kylla"
+      ]
+    },
+    {
+      "id": "line-004",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Minun nimeni on Mikko.",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Je m’appelle Mikko."
+      },
+      "unit_ids": [
+        "fi.construction.minun-nimeni-on"
+      ]
+    },
+    {
+      "id": "line-005",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Hauska tavata, Mikko.",
+      "intent": "express_pleasure_meeting",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Enchanté de faire ta connaissance, Mikko."
+      },
+      "unit_ids": [
+        "fi.expression.hauska-tavata"
+      ]
+    },
+    {
+      "id": "line-006",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Hauska tavata. Oletko suomalainen?",
+      "intent": "express_pleasure_meeting",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Enchanté. Est-ce que tu es finlandais ?"
+      },
+      "unit_ids": [
+        "fi.expression.hauska-tavata",
+        "fi.construction.oletko",
+        "fi.adjective.suomalainen"
+      ]
+    },
+    {
+      "id": "line-007",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "En ole suomalainen. Olen englantilainen. Entä sinä?",
+      "intent": "ask_or_state_nationality",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Je ne suis pas finlandaise. Je suis anglaise. Et toi ?"
+      },
+      "unit_ids": [
+        "fi.construction.en-ole",
+        "fi.construction.olen",
+        "fi.expression.enta-sina",
+        "fi.adjective.suomalainen",
+        "fi.adjective.englantilainen"
+      ]
+    },
+    {
+      "id": "line-008",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Olen suomalainen.",
+      "intent": "ask_or_state_nationality",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Je suis finlandais. / Je suis finlandaise."
+      },
+      "unit_ids": [
+        "fi.construction.olen",
+        "fi.adjective.suomalainen"
+      ]
+    },
+    {
+      "id": "line-009",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Asutko Helsingissä?",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Est-ce que tu habites à Helsinki ?"
+      },
+      "unit_ids": [
+        "fi.construction.asutko"
+      ]
+    },
+    {
+      "id": "line-010",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Kyllä, asun Helsingissä. Entä sinä?",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Oui, j’habite à Helsinki. Et toi ?"
+      },
+      "unit_ids": [
+        "fi.expression.enta-sina",
+        "fi.response.kylla"
+      ]
+    },
+    {
+      "id": "line-011",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Asun Lontoossa, mutta työskentelen Helsingissä.",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "J’habite à Londres, mais je travaille à Helsinki."
+      },
+      "unit_ids": [
+        "fi.construction.asun",
+        "fi.place.lontoo",
+        "fi.conjunction.mutta"
+      ]
+    },
+    {
+      "id": "line-014",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Comment dit-on « bonjour » en finnois ?",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 3000
+      },
+      "instruction_id": "lesson1.audio.line-014",
+      "localized_text": {
+        "fr-FR": "Comment dit-on « bonjour » en finnois ?"
+      },
+      "translations": {
+        "fr-FR": "Comment dit-on « bonjour » en finnois ?"
+      }
+    },
+    {
+      "id": "line-015",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hei.",
+      "intent": "greet",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Bonjour."
+      },
+      "unit_ids": [
+        "fi.greeting.hei"
+      ]
+    },
+    {
+      "id": "line-016",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répétez.",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 3000
+      },
+      "instruction_id": "lesson1.audio.line-016",
+      "localized_text": {
+        "fr-FR": "Répétez."
+      },
+      "translations": {
+        "fr-FR": "Répétez."
+      }
+    },
+    {
+      "id": "line-017",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hei.",
+      "intent": "greet",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Bonjour."
+      },
+      "unit_ids": [
+        "fi.greeting.hei"
+      ]
+    },
+    {
+      "id": "line-018",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Le mot finnois « sinä » signifie « tu ». « Oletko sinä Anna? » signifie « Est-ce que tu es Anna ? » Écoutez.",
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-018",
+      "localized_text": {
+        "fr-FR": "Le mot finnois « sinä » signifie « tu ». « Oletko sinä Anna? » signifie « Est-ce que tu es Anna ? » Écoutez."
+      },
+      "translations": {
+        "fr-FR": "Le mot finnois « sinä » signifie « tu ». « Oletko sinä Anna? » signifie « Est-ce que tu es Anna ? » Écoutez."
+      }
+    },
+    {
+      "id": "line-019",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Oletko sinä Anna?",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Est-ce que tu es Anna ?"
+      },
+      "unit_ids": [
+        "fi.construction.oletko"
+      ]
+    },
+    {
+      "id": "line-020",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Demandez : « Est-ce que tu es Anna ? »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "instruction_id": "lesson1.audio.line-020",
+      "localized_text": {
+        "fr-FR": "Demandez : « Est-ce que tu es Anna ? »"
+      },
+      "translations": {
+        "fr-FR": "Demandez : « Est-ce que tu es Anna ? »"
+      }
+    },
+    {
+      "id": "line-021",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Oletko sinä Anna?",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Est-ce que tu es Anna ?"
+      },
+      "unit_ids": [
+        "fi.construction.oletko"
+      ]
+    },
+    {
+      "id": "line-022",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "En finnois standard, la terminaison du verbe indique déjà la personne : on peut donc omettre « sinä » sans passer au registre familier. Écoutez la question courte.",
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-022",
+      "localized_text": {
+        "fr-FR": "En finnois standard, la terminaison du verbe indique déjà la personne : on peut donc omettre « sinä » sans passer au registre familier. Écoutez la question courte."
+      },
+      "translations": {
+        "fr-FR": "En finnois standard, la terminaison du verbe indique déjà la personne : on peut donc omettre « sinä » sans passer au registre familier. Écoutez la question courte."
+      }
+    },
+    {
+      "id": "line-023",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Oletko Anna?",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Est-ce que tu es Anna ?"
+      },
+      "unit_ids": [
+        "fi.construction.oletko"
+      ]
+    },
+    {
+      "id": "line-024",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Demandez encore une fois avec la forme courte.",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 3000
+      },
+      "instruction_id": "lesson1.audio.line-024",
+      "localized_text": {
+        "fr-FR": "Demandez encore une fois avec la forme courte."
+      },
+      "translations": {
+        "fr-FR": "Demandez encore une fois avec la forme courte."
+      }
+    },
+    {
+      "id": "line-025",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Oletko Anna?",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Est-ce que tu es Anna ?"
+      },
+      "unit_ids": [
+        "fi.construction.oletko"
+      ]
+    },
+    {
+      "id": "line-026",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "« Kyllä » signifie « oui ». « Minä olen Anna » signifie « Je suis Anna ». Écoutez.",
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-026",
+      "localized_text": {
+        "fr-FR": "« Kyllä » signifie « oui ». « Minä olen Anna » signifie « Je suis Anna ». Écoutez."
+      },
+      "translations": {
+        "fr-FR": "« Kyllä » signifie « oui ». « Minä olen Anna » signifie « Je suis Anna ». Écoutez."
+      }
+    },
+    {
+      "id": "line-027",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Kyllä, minä olen Anna.",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Oui, je suis Anna."
+      },
+      "unit_ids": [
+        "fi.response.kylla"
+      ]
+    },
+    {
+      "id": "line-028",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites : « Oui, je suis Anna. »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "instruction_id": "lesson1.audio.line-028",
+      "localized_text": {
+        "fr-FR": "Dites : « Oui, je suis Anna. »"
+      },
+      "translations": {
+        "fr-FR": "Dites : « Oui, je suis Anna. »"
+      }
+    },
+    {
+      "id": "line-029",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Kyllä, minä olen Anna.",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Oui, je suis Anna."
+      },
+      "unit_ids": [
+        "fi.response.kylla"
+      ]
+    },
+    {
+      "id": "line-030",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "En finnois standard, on peut aussi omettre « minä », car la forme verbale « olen » indique qui parle. Dites : « Je suis Anna. »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 3000
+      },
+      "instruction_id": "lesson1.audio.line-030",
+      "localized_text": {
+        "fr-FR": "En finnois standard, on peut aussi omettre « minä », car la forme verbale « olen » indique qui parle. Dites : « Je suis Anna. »"
+      },
+      "translations": {
+        "fr-FR": "En finnois standard, on peut aussi omettre « minä », car la forme verbale « olen » indique qui parle. Dites : « Je suis Anna. »"
+      }
+    },
+    {
+      "id": "line-031",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Olen Anna.",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Je suis Anna."
+      },
+      "unit_ids": [
+        "fi.construction.olen"
+      ]
+    },
+    {
+      "id": "line-032",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "« Entä sinä? » signifie « Et toi ? » Écoutez.",
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-032",
+      "localized_text": {
+        "fr-FR": "« Entä sinä? » signifie « Et toi ? » Écoutez."
+      },
+      "translations": {
+        "fr-FR": "« Entä sinä? » signifie « Et toi ? » Écoutez."
+      }
+    },
+    {
+      "id": "line-033",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Entä sinä?",
+      "intent": "model_target_phrase",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Et toi ?"
+      },
+      "unit_ids": [
+        "fi.expression.enta-sina"
+      ]
+    },
+    {
+      "id": "line-034",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Demandez : « Et toi ? »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 3000
+      },
+      "instruction_id": "lesson1.audio.line-034",
+      "localized_text": {
+        "fr-FR": "Demandez : « Et toi ? »"
+      },
+      "translations": {
+        "fr-FR": "Demandez : « Et toi ? »"
+      }
+    },
+    {
+      "id": "line-035",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Entä sinä?",
+      "intent": "model_target_phrase",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Et toi ?"
+      },
+      "unit_ids": [
+        "fi.expression.enta-sina"
+      ]
+    },
+    {
+      "id": "line-036",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répondez « Oui, je suis Anna », puis demandez « Et toi ? »",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 5000
+      },
+      "instruction_id": "lesson1.audio.line-036",
+      "localized_text": {
+        "fr-FR": "Répondez « Oui, je suis Anna », puis demandez « Et toi ? »"
+      },
+      "translations": {
+        "fr-FR": "Répondez « Oui, je suis Anna », puis demandez « Et toi ? »"
+      }
+    },
+    {
+      "id": "line-037",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Kyllä, minä olen Anna. Entä sinä?",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Oui, je suis Anna. Et toi ?"
+      },
+      "unit_ids": [
+        "fi.expression.enta-sina",
+        "fi.response.kylla"
+      ]
+    },
+    {
+      "id": "line-038",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Pour dire « Je m’appelle Mikko », dites :",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-038",
+      "localized_text": {
+        "fr-FR": "Pour dire « Je m’appelle Mikko », dites :"
+      },
+      "translations": {
+        "fr-FR": "Pour dire « Je m’appelle Mikko », dites :"
+      }
+    },
+    {
+      "id": "line-039",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Minun nimeni on Mikko.",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Je m’appelle Mikko."
+      },
+      "unit_ids": [
+        "fi.construction.minun-nimeni-on"
+      ]
+    },
+    {
+      "id": "line-040",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Écoutez encore. « Minun nimeni » signifie « mon nom ».",
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-040",
+      "localized_text": {
+        "fr-FR": "Écoutez encore. « Minun nimeni » signifie « mon nom »."
+      },
+      "translations": {
+        "fr-FR": "Écoutez encore. « Minun nimeni » signifie « mon nom »."
+      }
+    },
+    {
+      "id": "line-041",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Minun nimeni on Mikko.",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Je m’appelle Mikko."
+      },
+      "unit_ids": [
+        "fi.construction.minun-nimeni-on"
+      ]
+    },
+    {
+      "id": "line-042",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites : « Je m’appelle Mikko. »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "instruction_id": "lesson1.audio.line-042",
+      "localized_text": {
+        "fr-FR": "Dites : « Je m’appelle Mikko. »"
+      },
+      "translations": {
+        "fr-FR": "Dites : « Je m’appelle Mikko. »"
+      }
+    },
+    {
+      "id": "line-043",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Minun nimeni on Mikko.",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Je m’appelle Mikko."
+      },
+      "unit_ids": [
+        "fi.construction.minun-nimeni-on"
+      ]
+    },
+    {
+      "id": "line-044",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Présentez-vous maintenant avec votre propre prénom.",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 5000
+      },
+      "instruction_id": "lesson1.audio.line-044",
+      "localized_text": {
+        "fr-FR": "Présentez-vous maintenant avec votre propre prénom."
+      },
+      "translations": {
+        "fr-FR": "Présentez-vous maintenant avec votre propre prénom."
+      }
+    },
+    {
+      "id": "line-045",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Encore une fois : « Je m’appelle… »",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 3000
+      },
+      "instruction_id": "lesson1.audio.line-045",
+      "localized_text": {
+        "fr-FR": "Encore une fois : « Je m’appelle… »"
+      },
+      "translations": {
+        "fr-FR": "Encore une fois : « Je m’appelle… »"
+      }
+    },
+    {
+      "id": "line-046",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Minun nimeni on…",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Je m’appelle…"
+      },
+      "unit_ids": [
+        "fi.construction.minun-nimeni-on"
+      ]
+    },
+    {
+      "id": "line-047",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "« Hauska tavata » signifie « Enchanté ». Écoutez.",
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-047",
+      "localized_text": {
+        "fr-FR": "« Hauska tavata » signifie « Enchanté ». Écoutez."
+      },
+      "translations": {
+        "fr-FR": "« Hauska tavata » signifie « Enchanté ». Écoutez."
+      }
+    },
+    {
+      "id": "line-048",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hauska tavata.",
+      "intent": "express_pleasure_meeting",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Enchanté. / Enchantée."
+      },
+      "unit_ids": [
+        "fi.expression.hauska-tavata"
+      ]
+    },
+    {
+      "id": "line-049",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répétez.",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 3000
+      },
+      "instruction_id": "lesson1.audio.line-049",
+      "localized_text": {
+        "fr-FR": "Répétez."
+      },
+      "translations": {
+        "fr-FR": "Répétez."
+      }
+    },
+    {
+      "id": "line-050",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hauska tavata.",
+      "intent": "express_pleasure_meeting",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Enchanté. / Enchantée."
+      },
+      "unit_ids": [
+        "fi.expression.hauska-tavata"
+      ]
+    },
+    {
+      "id": "line-051",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites : « Enchanté, Mikko. »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "instruction_id": "lesson1.audio.line-051",
+      "localized_text": {
+        "fr-FR": "Dites : « Enchanté, Mikko. »"
+      },
+      "translations": {
+        "fr-FR": "Dites : « Enchanté, Mikko. »"
+      }
+    },
+    {
+      "id": "line-052",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hauska tavata, Mikko.",
+      "intent": "express_pleasure_meeting",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Enchanté de faire ta connaissance, Mikko."
+      },
+      "unit_ids": [
+        "fi.expression.hauska-tavata"
+      ]
+    },
+    {
+      "id": "line-053",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Rappelons une expression précédente. Demandez : « Est-ce que tu es Anna ? »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 3000
+      },
+      "instruction_id": "lesson1.audio.line-053",
+      "localized_text": {
+        "fr-FR": "Rappelons une expression précédente. Demandez : « Est-ce que tu es Anna ? »"
+      },
+      "translations": {
+        "fr-FR": "Rappelons une expression précédente. Demandez : « Est-ce que tu es Anna ? »"
+      }
+    },
+    {
+      "id": "line-054",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Oletko Anna?",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Est-ce que tu es Anna ?"
+      },
+      "unit_ids": [
+        "fi.construction.oletko"
+      ]
+    },
+    {
+      "id": "line-055",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répondez : « Oui, je suis Anna. »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 3000
+      },
+      "instruction_id": "lesson1.audio.line-055",
+      "localized_text": {
+        "fr-FR": "Répondez : « Oui, je suis Anna. »"
+      },
+      "translations": {
+        "fr-FR": "Répondez : « Oui, je suis Anna. »"
+      }
+    },
+    {
+      "id": "line-056",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Kyllä, olen Anna.",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Oui, je suis Anna."
+      },
+      "unit_ids": [
+        "fi.response.kylla"
+      ]
+    },
+    {
+      "id": "line-057",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Demandez : « Et toi ? »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 3000
+      },
+      "instruction_id": "lesson1.audio.line-057",
+      "localized_text": {
+        "fr-FR": "Demandez : « Et toi ? »"
+      },
+      "translations": {
+        "fr-FR": "Demandez : « Et toi ? »"
+      }
+    },
+    {
+      "id": "line-058",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Entä sinä?",
+      "intent": "model_target_phrase",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Et toi ?"
+      },
+      "unit_ids": [
+        "fi.expression.enta-sina"
+      ]
+    },
+    {
+      "id": "line-059",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites : « Je m’appelle Mikko. »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "instruction_id": "lesson1.audio.line-059",
+      "localized_text": {
+        "fr-FR": "Dites : « Je m’appelle Mikko. »"
+      },
+      "translations": {
+        "fr-FR": "Dites : « Je m’appelle Mikko. »"
+      }
+    },
+    {
+      "id": "line-060",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Minun nimeni on Mikko.",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Je m’appelle Mikko."
+      },
+      "unit_ids": [
+        "fi.construction.minun-nimeni-on"
+      ]
+    },
+    {
+      "id": "line-061",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites : « Enchanté. »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 3000
+      },
+      "instruction_id": "lesson1.audio.line-061",
+      "localized_text": {
+        "fr-FR": "Dites : « Enchanté. »"
+      },
+      "translations": {
+        "fr-FR": "Dites : « Enchanté. »"
+      }
+    },
+    {
+      "id": "line-062",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hauska tavata.",
+      "intent": "express_pleasure_meeting",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Enchanté. / Enchantée."
+      },
+      "unit_ids": [
+        "fi.expression.hauska-tavata"
+      ]
+    },
+    {
+      "id": "line-063",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "« Suomalainen » signifie « finlandais » ou « finlandaise ». Écoutez les syllabes puis le mot entier, avec l’accent sur « suo ».",
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-063",
+      "localized_text": {
+        "fr-FR": "« Suomalainen » signifie « finlandais » ou « finlandaise ». Écoutez les syllabes puis le mot entier, avec l’accent sur « suo »."
+      },
+      "translations": {
+        "fr-FR": "« Suomalainen » signifie « finlandais » ou « finlandaise ». Écoutez les syllabes puis le mot entier, avec l’accent sur « suo »."
+      }
+    },
+    {
+      "id": "line-064",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Suo. Ma. Lai. Nen. Suomalainen.",
+      "intent": "practice_pronunciation",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Décomposition de « suomalainen »."
+      },
+      "unit_ids": []
+    },
+    {
+      "id": "line-065",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites : « Je suis finlandais » ou « Je suis finlandaise ».",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 3000
+      },
+      "instruction_id": "lesson1.audio.line-065",
+      "localized_text": {
+        "fr-FR": "Dites : « Je suis finlandais » ou « Je suis finlandaise »."
+      },
+      "translations": {
+        "fr-FR": "Dites : « Je suis finlandais » ou « Je suis finlandaise »."
+      }
+    },
+    {
+      "id": "line-066",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Olen suomalainen.",
+      "intent": "ask_or_state_nationality",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Je suis finlandais. / Je suis finlandaise."
+      },
+      "unit_ids": [
+        "fi.construction.olen",
+        "fi.adjective.suomalainen"
+      ]
+    },
+    {
+      "id": "line-067",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Pour demander « Est-ce que tu es finlandais ? », ajoutez la terminaison interrogative « -ko » à « olet ».",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-067",
+      "localized_text": {
+        "fr-FR": "Pour demander « Est-ce que tu es finlandais ? », ajoutez la terminaison interrogative « -ko » à « olet »."
+      },
+      "translations": {
+        "fr-FR": "Pour demander « Est-ce que tu es finlandais ? », ajoutez la terminaison interrogative « -ko » à « olet »."
+      }
+    },
+    {
+      "id": "line-068",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Oletko suomalainen?",
+      "intent": "ask_or_state_nationality",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Est-ce que tu es finlandais ? / finlandaise ?"
+      },
+      "unit_ids": [
+        "fi.construction.oletko",
+        "fi.adjective.suomalainen"
+      ]
+    },
+    {
+      "id": "line-069",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Demandez : « Est-ce que tu es finlandais ? »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "instruction_id": "lesson1.audio.line-069",
+      "localized_text": {
+        "fr-FR": "Demandez : « Est-ce que tu es finlandais ? »"
+      },
+      "translations": {
+        "fr-FR": "Demandez : « Est-ce que tu es finlandais ? »"
+      }
+    },
+    {
+      "id": "line-070",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Oletko suomalainen?",
+      "intent": "ask_or_state_nationality",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Est-ce que tu es finlandais ? / finlandaise ?"
+      },
+      "unit_ids": [
+        "fi.construction.oletko",
+        "fi.adjective.suomalainen"
+      ]
+    },
+    {
+      "id": "line-071",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "« En » sert à répondre négativement à une question qui vous concerne. Écoutez.",
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-071",
+      "localized_text": {
+        "fr-FR": "« En » sert à répondre négativement à une question qui vous concerne. Écoutez."
+      },
+      "translations": {
+        "fr-FR": "« En » sert à répondre négativement à une question qui vous concerne. Écoutez."
+      }
+    },
+    {
+      "id": "line-072",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "En ole suomalainen. Olen englantilainen.",
+      "intent": "ask_or_state_nationality",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Je ne suis pas finlandais. Je suis anglais."
+      },
+      "unit_ids": [
+        "fi.construction.en-ole",
+        "fi.construction.olen",
+        "fi.adjective.suomalainen",
+        "fi.adjective.englantilainen"
+      ]
+    },
+    {
+      "id": "line-073",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "« Englantilainen » signifie « anglais » ou « anglaise ». Écoutez les syllabes puis le mot entier, avec l’accent sur « eng ».",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 5000
+      },
+      "instruction_id": "lesson1.audio.line-073",
+      "localized_text": {
+        "fr-FR": "« Englantilainen » signifie « anglais » ou « anglaise ». Écoutez les syllabes puis le mot entier, avec l’accent sur « eng »."
+      },
+      "translations": {
+        "fr-FR": "« Englantilainen » signifie « anglais » ou « anglaise ». Écoutez les syllabes puis le mot entier, avec l’accent sur « eng »."
+      }
+    },
+    {
+      "id": "line-074",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Eng. Lan. Ti. Lai. Nen. Englantilainen.",
+      "intent": "practice_pronunciation",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Décomposition de « englantilainen »."
+      },
+      "unit_ids": []
+    },
+    {
+      "id": "line-075",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Demandez encore : « Est-ce que tu es finlandais ? »",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "instruction_id": "lesson1.audio.line-075",
+      "localized_text": {
+        "fr-FR": "Demandez encore : « Est-ce que tu es finlandais ? »"
+      },
+      "translations": {
+        "fr-FR": "Demandez encore : « Est-ce que tu es finlandais ? »"
+      }
+    },
+    {
+      "id": "line-076",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Oletko suomalainen?",
+      "intent": "ask_or_state_nationality",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Est-ce que tu es finlandais ? / finlandaise ?"
+      },
+      "unit_ids": [
+        "fi.construction.oletko",
+        "fi.adjective.suomalainen"
+      ]
+    },
+    {
+      "id": "line-077",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répondez : « Je ne suis pas finlandais. Je suis anglais. »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 5000
+      },
+      "instruction_id": "lesson1.audio.line-077",
+      "localized_text": {
+        "fr-FR": "Répondez : « Je ne suis pas finlandais. Je suis anglais. »"
+      },
+      "translations": {
+        "fr-FR": "Répondez : « Je ne suis pas finlandais. Je suis anglais. »"
+      }
+    },
+    {
+      "id": "line-078",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "En ole suomalainen. Olen englantilainen.",
+      "intent": "ask_or_state_nationality",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Je ne suis pas finlandais. Je suis anglais."
+      },
+      "unit_ids": [
+        "fi.construction.en-ole",
+        "fi.construction.olen",
+        "fi.adjective.suomalainen",
+        "fi.adjective.englantilainen"
+      ]
+    },
+    {
+      "id": "line-079",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "« Asutko Helsingissä? » signifie « Est-ce que tu habites à Helsinki ? » Écoutez les syllabes. Dans « Helsingissä », tenez bien les deux « s ».",
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-079",
+      "localized_text": {
+        "fr-FR": "« Asutko Helsingissä? » signifie « Est-ce que tu habites à Helsinki ? » Écoutez les syllabes. Dans « Helsingissä », tenez bien les deux « s »."
+      },
+      "translations": {
+        "fr-FR": "« Asutko Helsingissä? » signifie « Est-ce que tu habites à Helsinki ? » Écoutez les syllabes. Dans « Helsingissä », tenez bien les deux « s »."
+      }
+    },
+    {
+      "id": "line-080",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "A. Sut. Ko. Hel. Sin. Gis. Sä. Asutko Helsingissä?",
+      "intent": "practice_pronunciation",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Décomposition de « Asutko Helsingissä? »."
+      },
+      "unit_ids": [
+        "fi.construction.asutko"
+      ]
+    },
+    {
+      "id": "line-081",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Demandez : « Est-ce que tu habites à Helsinki ? »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "instruction_id": "lesson1.audio.line-081",
+      "localized_text": {
+        "fr-FR": "Demandez : « Est-ce que tu habites à Helsinki ? »"
+      },
+      "translations": {
+        "fr-FR": "Demandez : « Est-ce que tu habites à Helsinki ? »"
+      }
+    },
+    {
+      "id": "line-082",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Asutko Helsingissä?",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Est-ce que tu habites à Helsinki ?"
+      },
+      "unit_ids": [
+        "fi.construction.asutko"
+      ]
+    },
+    {
+      "id": "line-083",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "« Asun Helsingissä » signifie « J’habite à Helsinki ». Dites-le.",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "instruction_id": "lesson1.audio.line-083",
+      "localized_text": {
+        "fr-FR": "« Asun Helsingissä » signifie « J’habite à Helsinki ». Dites-le."
+      },
+      "translations": {
+        "fr-FR": "« Asun Helsingissä » signifie « J’habite à Helsinki ». Dites-le."
+      }
+    },
+    {
+      "id": "line-084",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Asun Helsingissä.",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "J’habite à Helsinki."
+      },
+      "unit_ids": [
+        "fi.construction.asun"
+      ]
+    },
+    {
+      "id": "line-085",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répondez maintenant : « Oui, j’habite à Helsinki. »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "instruction_id": "lesson1.audio.line-085",
+      "localized_text": {
+        "fr-FR": "Répondez maintenant : « Oui, j’habite à Helsinki. »"
+      },
+      "translations": {
+        "fr-FR": "Répondez maintenant : « Oui, j’habite à Helsinki. »"
+      }
+    },
+    {
+      "id": "line-086",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Kyllä, asun Helsingissä.",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Oui, j’habite à Helsinki."
+      },
+      "unit_ids": [
+        "fi.response.kylla"
+      ]
+    },
+    {
+      "id": "line-087",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Pour dire « J’habite à Londres », dites :",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-087",
+      "localized_text": {
+        "fr-FR": "Pour dire « J’habite à Londres », dites :"
+      },
+      "translations": {
+        "fr-FR": "Pour dire « J’habite à Londres », dites :"
+      }
+    },
+    {
+      "id": "line-088",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Asun Lontoossa.",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "J’habite à Londres."
+      },
+      "unit_ids": [
+        "fi.construction.asun",
+        "fi.place.lontoo"
+      ]
+    },
+    {
+      "id": "line-089",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répétez.",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 3000
+      },
+      "instruction_id": "lesson1.audio.line-089",
+      "localized_text": {
+        "fr-FR": "Répétez."
+      },
+      "translations": {
+        "fr-FR": "Répétez."
+      }
+    },
+    {
+      "id": "line-090",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Asun Lontoossa.",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "J’habite à Londres."
+      },
+      "unit_ids": [
+        "fi.construction.asun",
+        "fi.place.lontoo"
+      ]
+    },
+    {
+      "id": "line-091",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Observez que la terminaison de la ville change en finnois : « Helsingissä », mais « Lontoossa ». Pour le moment, apprenez chaque expression comme un tout.",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-091",
+      "localized_text": {
+        "fr-FR": "Observez que la terminaison de la ville change en finnois : « Helsingissä », mais « Lontoossa ». Pour le moment, apprenez chaque expression comme un tout."
+      },
+      "translations": {
+        "fr-FR": "Observez que la terminaison de la ville change en finnois : « Helsingissä », mais « Lontoossa ». Pour le moment, apprenez chaque expression comme un tout."
+      }
+    },
+    {
+      "id": "line-092",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répondez : « Je n’habite pas à Helsinki. J’habite à Londres. »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 5000
+      },
+      "instruction_id": "lesson1.audio.line-092",
+      "localized_text": {
+        "fr-FR": "Répondez : « Je n’habite pas à Helsinki. J’habite à Londres. »"
+      },
+      "translations": {
+        "fr-FR": "Répondez : « Je n’habite pas à Helsinki. J’habite à Londres. »"
+      }
+    },
+    {
+      "id": "line-093",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "En asu Helsingissä. Asun Lontoossa.",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Je n’habite pas à Helsinki. J’habite à Londres."
+      },
+      "unit_ids": [
+        "fi.construction.en-asu",
+        "fi.construction.asun",
+        "fi.place.lontoo"
+      ]
+    },
+    {
+      "id": "line-094",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Revenons en arrière. Demandez à Anna si elle est finlandaise.",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "instruction_id": "lesson1.audio.line-094",
+      "localized_text": {
+        "fr-FR": "Revenons en arrière. Demandez à Anna si elle est finlandaise."
+      },
+      "translations": {
+        "fr-FR": "Revenons en arrière. Demandez à Anna si elle est finlandaise."
+      }
+    },
+    {
+      "id": "line-095",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Oletko suomalainen?",
+      "intent": "ask_or_state_nationality",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Est-ce que tu es finlandais ? / finlandaise ?"
+      },
+      "unit_ids": [
+        "fi.construction.oletko",
+        "fi.adjective.suomalainen"
+      ]
+    },
+    {
+      "id": "line-096",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Elle répond : « Je ne suis pas finlandaise. Je suis anglaise. »",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 5000
+      },
+      "instruction_id": "lesson1.audio.line-096",
+      "localized_text": {
+        "fr-FR": "Elle répond : « Je ne suis pas finlandaise. Je suis anglaise. »"
+      },
+      "translations": {
+        "fr-FR": "Elle répond : « Je ne suis pas finlandaise. Je suis anglaise. »"
+      }
+    },
+    {
+      "id": "line-097",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "En ole suomalainen. Olen englantilainen.",
+      "intent": "ask_or_state_nationality",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Je ne suis pas finlandais. Je suis anglais."
+      },
+      "unit_ids": [
+        "fi.construction.en-ole",
+        "fi.construction.olen",
+        "fi.adjective.suomalainen",
+        "fi.adjective.englantilainen"
+      ]
+    },
+    {
+      "id": "line-098",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Demandez à Mikko s’il habite à Helsinki.",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "instruction_id": "lesson1.audio.line-098",
+      "localized_text": {
+        "fr-FR": "Demandez à Mikko s’il habite à Helsinki."
+      },
+      "translations": {
+        "fr-FR": "Demandez à Mikko s’il habite à Helsinki."
+      }
+    },
+    {
+      "id": "line-099",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Asutko Helsingissä?",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Est-ce que tu habites à Helsinki ?"
+      },
+      "unit_ids": [
+        "fi.construction.asutko"
+      ]
+    },
+    {
+      "id": "line-100",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Il répond : « Oui, j’habite à Helsinki. »",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 5000
+      },
+      "instruction_id": "lesson1.audio.line-100",
+      "localized_text": {
+        "fr-FR": "Il répond : « Oui, j’habite à Helsinki. »"
+      },
+      "translations": {
+        "fr-FR": "Il répond : « Oui, j’habite à Helsinki. »"
+      }
+    },
+    {
+      "id": "line-101",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Kyllä, asun Helsingissä.",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Oui, j’habite à Helsinki."
+      },
+      "unit_ids": [
+        "fi.response.kylla"
+      ]
+    },
+    {
+      "id": "line-102",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "« Työskentelen Helsingissä » signifie « Je travaille à Helsinki ». Écoutez les syllabes de « työskentelen », avec l’accent sur « työs ».",
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-102",
+      "localized_text": {
+        "fr-FR": "« Työskentelen Helsingissä » signifie « Je travaille à Helsinki ». Écoutez les syllabes de « työskentelen », avec l’accent sur « työs »."
+      },
+      "translations": {
+        "fr-FR": "« Työskentelen Helsingissä » signifie « Je travaille à Helsinki ». Écoutez les syllabes de « työskentelen », avec l’accent sur « työs »."
+      }
+    },
+    {
+      "id": "line-103",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Työs. Ken. Te. Len. Työskentelen Helsingissä.",
+      "intent": "practice_pronunciation",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Décomposition de « työskentelen »."
+      },
+      "unit_ids": [
+        "fi.construction.tyoskentelen"
+      ]
+    },
+    {
+      "id": "line-104",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites : « Je travaille à Helsinki. »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 5000
+      },
+      "instruction_id": "lesson1.audio.line-104",
+      "localized_text": {
+        "fr-FR": "Dites : « Je travaille à Helsinki. »"
+      },
+      "translations": {
+        "fr-FR": "Dites : « Je travaille à Helsinki. »"
+      }
+    },
+    {
+      "id": "line-105",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Työskentelen Helsingissä.",
+      "intent": "state_work_location",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Je travaille à Helsinki."
+      },
+      "unit_ids": [
+        "fi.construction.tyoskentelen"
+      ]
+    },
+    {
+      "id": "line-106",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "« Mutta » signifie « mais ». Dites : « J’habite à Londres, mais je travaille à Helsinki. »",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 7000
+      },
+      "instruction_id": "lesson1.audio.line-106",
+      "localized_text": {
+        "fr-FR": "« Mutta » signifie « mais ». Dites : « J’habite à Londres, mais je travaille à Helsinki. »"
+      },
+      "translations": {
+        "fr-FR": "« Mutta » signifie « mais ». Dites : « J’habite à Londres, mais je travaille à Helsinki. »"
+      }
+    },
+    {
+      "id": "line-107",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Asun Lontoossa, mutta työskentelen Helsingissä.",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "J’habite à Londres, mais je travaille à Helsinki."
+      },
+      "unit_ids": [
+        "fi.construction.asun",
+        "fi.place.lontoo",
+        "fi.conjunction.mutta"
+      ]
+    },
+    {
+      "id": "line-108",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites encore une fois la phrase complète.",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 7000
+      },
+      "instruction_id": "lesson1.audio.line-108",
+      "localized_text": {
+        "fr-FR": "Dites encore une fois la phrase complète."
+      },
+      "translations": {
+        "fr-FR": "Dites encore une fois la phrase complète."
+      }
+    },
+    {
+      "id": "line-109",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Asun Lontoossa, mutta työskentelen Helsingissä.",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "J’habite à Londres, mais je travaille à Helsinki."
+      },
+      "unit_ids": [
+        "fi.construction.asun",
+        "fi.place.lontoo",
+        "fi.conjunction.mutta"
+      ]
+    },
+    {
+      "id": "line-110",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Travaillez maintenant la prononciation de « Lontoossa ». L’accent principal tombe sur la première syllabe. Écoutez : « Lon ».",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-110",
+      "localized_text": {
+        "fr-FR": "Travaillez maintenant la prononciation de « Lontoossa ». L’accent principal tombe sur la première syllabe. Écoutez : « Lon »."
+      },
+      "translations": {
+        "fr-FR": "Travaillez maintenant la prononciation de « Lontoossa ». L’accent principal tombe sur la première syllabe. Écoutez : « Lon »."
+      }
+    },
+    {
+      "id": "line-111",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Lon.",
+      "intent": "practice_pronunciation",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Première syllabe accentuée de « Lontoossa »."
+      },
+      "unit_ids": [
+        "fi.place.lontoo"
+      ]
+    },
+    {
+      "id": "line-112",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répétez la première syllabe avec l’accent : « Lon ».",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "instruction_id": "lesson1.audio.line-112",
+      "localized_text": {
+        "fr-FR": "Répétez la première syllabe avec l’accent : « Lon »."
+      },
+      "translations": {
+        "fr-FR": "Répétez la première syllabe avec l’accent : « Lon »."
+      }
+    },
+    {
+      "id": "line-113",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Lon.",
+      "intent": "practice_pronunciation",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Première syllabe accentuée de « Lontoossa »."
+      },
+      "unit_ids": [
+        "fi.place.lontoo"
+      ]
+    },
+    {
+      "id": "line-114",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "La deuxième syllabe contient deux « o ». Gardez ce son deux fois plus longtemps. Écoutez : « toos ».",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "instruction_id": "lesson1.audio.line-114",
+      "localized_text": {
+        "fr-FR": "La deuxième syllabe contient deux « o ». Gardez ce son deux fois plus longtemps. Écoutez : « toos »."
+      },
+      "translations": {
+        "fr-FR": "La deuxième syllabe contient deux « o ». Gardez ce son deux fois plus longtemps. Écoutez : « toos »."
+      }
+    },
+    {
+      "id": "line-115",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Toos.",
+      "intent": "practice_pronunciation",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Syllabe avec un « oo » long."
+      },
+      "unit_ids": [
+        "fi.place.lontoo"
+      ]
+    },
+    {
+      "id": "line-116",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répétez « toos » en tenant bien le son « oo ».",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-116",
+      "localized_text": {
+        "fr-FR": "Répétez « toos » en tenant bien le son « oo »."
+      },
+      "translations": {
+        "fr-FR": "Répétez « toos » en tenant bien le son « oo »."
+      }
+    },
+    {
+      "id": "line-117",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Toos.",
+      "intent": "practice_pronunciation",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Syllabe avec un « oo » long."
+      },
+      "unit_ids": [
+        "fi.place.lontoo"
+      ]
+    },
+    {
+      "id": "line-118",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Ajoutez la dernière syllabe et enchaînez : « toos-sa ».",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "instruction_id": "lesson1.audio.line-118",
+      "localized_text": {
+        "fr-FR": "Ajoutez la dernière syllabe et enchaînez : « toos-sa »."
+      },
+      "translations": {
+        "fr-FR": "Ajoutez la dernière syllabe et enchaînez : « toos-sa »."
+      }
+    },
+    {
+      "id": "line-119",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Toossa.",
+      "intent": "practice_pronunciation",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "translations": {
+        "fr-FR": "Fin du mot « Lontoossa »."
+      },
+      "unit_ids": [
+        "fi.place.lontoo"
+      ]
+    },
+    {
+      "id": "line-120",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Assemblez les trois syllabes, avec l’accent sur la première et le « oo » long : « Lon-toos-sa ».",
+      "intent": "prompt_learner_response",
+      "direction": {
+        "pause_after_ms": 6000
+      },
+      "instruction_id": "lesson1.audio.line-120",
+      "localized_text": {
+        "fr-FR": "Assemblez les trois syllabes, avec l’accent sur la première et le « oo » long : « Lon-toos-sa »."
+      },
+      "translations": {
+        "fr-FR": "Assemblez les trois syllabes, avec l’accent sur la première et le « oo » long : « Lon-toos-sa »."
+      }
+    },
+    {
+      "id": "line-121",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Lontoossa.",
+      "intent": "practice_pronunciation",
+      "direction": {
+        "pause_after_ms": 2000
+      },
+      "translations": {
+        "fr-FR": "À Londres."
+      },
+      "unit_ids": [
+        "fi.place.lontoo"
+      ]
+    },
+    {
+      "id": "line-122",
+      "section": "final_conversation_anna",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Vous allez maintenant jouer le rôle d’Anna. Répondez à Mikko en finnois.",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-122",
+      "localized_text": {
+        "fr-FR": "Vous allez maintenant jouer le rôle d’Anna. Répondez à Mikko en finnois."
+      },
+      "translations": {
+        "fr-FR": "Vous allez maintenant jouer le rôle d’Anna. Répondez à Mikko en finnois."
+      }
+    },
+    {
+      "id": "line-123",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Hei. Oletko sinä Anna?",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 5000
+      },
+      "translations": {
+        "fr-FR": "Bonjour. Est-ce que tu es Anna ?"
+      },
+      "unit_ids": [
+        "fi.construction.oletko",
+        "fi.greeting.hei"
+      ]
+    },
+    {
+      "id": "line-124",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Kyllä, minä olen Anna. Entä sinä?",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "role": "answer_key",
+      "translations": {
+        "fr-FR": "Oui, je suis Anna. Et toi ?"
+      },
+      "unit_ids": [
+        "fi.expression.enta-sina",
+        "fi.response.kylla"
+      ]
+    },
+    {
+      "id": "line-125",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Minun nimeni on Mikko.",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "translations": {
+        "fr-FR": "Je m’appelle Mikko."
+      },
+      "unit_ids": [
+        "fi.construction.minun-nimeni-on"
+      ]
+    },
+    {
+      "id": "line-126",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Hauska tavata, Mikko.",
+      "intent": "express_pleasure_meeting",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "role": "answer_key",
+      "translations": {
+        "fr-FR": "Enchanté de faire ta connaissance, Mikko."
+      },
+      "unit_ids": [
+        "fi.expression.hauska-tavata"
+      ]
+    },
+    {
+      "id": "line-127",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Oletko suomalainen?",
+      "intent": "ask_or_state_nationality",
+      "direction": {
+        "pause_after_ms": 5000
+      },
+      "translations": {
+        "fr-FR": "Est-ce que tu es finlandais ? / finlandaise ?"
+      },
+      "unit_ids": [
+        "fi.construction.oletko",
+        "fi.adjective.suomalainen"
+      ]
+    },
+    {
+      "id": "line-128",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "En ole suomalainen. Olen englantilainen.",
+      "intent": "ask_or_state_nationality",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "role": "answer_key",
+      "translations": {
+        "fr-FR": "Je ne suis pas finlandais. Je suis anglais."
+      },
+      "unit_ids": [
+        "fi.construction.en-ole",
+        "fi.construction.olen",
+        "fi.adjective.suomalainen",
+        "fi.adjective.englantilainen"
+      ]
+    },
+    {
+      "id": "line-129",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Asutko Helsingissä?",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 7000
+      },
+      "translations": {
+        "fr-FR": "Est-ce que tu habites à Helsinki ?"
+      },
+      "unit_ids": [
+        "fi.construction.asutko"
+      ]
+    },
+    {
+      "id": "line-130",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "En asu Helsingissä. Asun Lontoossa, mutta työskentelen Helsingissä.",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "role": "answer_key",
+      "translations": {
+        "fr-FR": "Je n’habite pas à Helsinki. J’habite à Londres, mais je travaille à Helsinki."
+      },
+      "unit_ids": [
+        "fi.construction.en-asu",
+        "fi.construction.asun",
+        "fi.place.lontoo",
+        "fi.conjunction.mutta"
+      ]
+    },
+    {
+      "id": "line-133",
+      "section": "final_conversation_mikko",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Jouez maintenant le rôle de Mikko.",
+      "intent": "explain_language",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "instruction_id": "lesson1.audio.line-133",
+      "localized_text": {
+        "fr-FR": "Jouez maintenant le rôle de Mikko."
+      },
+      "translations": {
+        "fr-FR": "Jouez maintenant le rôle de Mikko."
+      }
+    },
+    {
+      "id": "line-134",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Hei. Oletko sinä Mikko?",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 5000
+      },
+      "translations": {
+        "fr-FR": "Bonjour. Est-ce que tu es Mikko ?"
+      },
+      "unit_ids": [
+        "fi.construction.oletko",
+        "fi.greeting.hei"
+      ]
+    },
+    {
+      "id": "line-135",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Kyllä, minä olen Mikko. Entä sinä?",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "role": "answer_key",
+      "translations": {
+        "fr-FR": "Oui, je suis Mikko. Et toi ?"
+      },
+      "unit_ids": [
+        "fi.expression.enta-sina",
+        "fi.response.kylla"
+      ]
+    },
+    {
+      "id": "line-136",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Minun nimeni on Anna.",
+      "intent": "ask_or_state_identity",
+      "direction": {
+        "pause_after_ms": 4000
+      },
+      "translations": {
+        "fr-FR": "Je m’appelle Anna."
+      },
+      "unit_ids": [
+        "fi.construction.minun-nimeni-on"
+      ]
+    },
+    {
+      "id": "line-137",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Hauska tavata, Anna.",
+      "intent": "express_pleasure_meeting",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "role": "answer_key",
+      "translations": {
+        "fr-FR": "Enchanté de faire ta connaissance, Anna."
+      },
+      "unit_ids": [
+        "fi.expression.hauska-tavata"
+      ]
+    },
+    {
+      "id": "line-138",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Oletko suomalainen?",
+      "intent": "ask_or_state_nationality",
+      "direction": {
+        "pause_after_ms": 5000
+      },
+      "translations": {
+        "fr-FR": "Est-ce que tu es finlandais ? / finlandaise ?"
+      },
+      "unit_ids": [
+        "fi.construction.oletko",
+        "fi.adjective.suomalainen"
+      ]
+    },
+    {
+      "id": "line-139",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Kyllä, olen suomalainen. Entä sinä?",
+      "intent": "ask_or_state_nationality",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "role": "answer_key",
+      "translations": {
+        "fr-FR": "Oui, je suis finlandais. Et toi ?"
+      },
+      "unit_ids": [
+        "fi.expression.enta-sina",
+        "fi.adjective.suomalainen",
+        "fi.response.kylla"
+      ]
+    },
+    {
+      "id": "line-140",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Olen englantilainen. Asutko Helsingissä?",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 5000
+      },
+      "translations": {
+        "fr-FR": "Je suis anglaise. Est-ce que tu habites à Helsinki ?"
+      },
+      "unit_ids": [
+        "fi.construction.olen",
+        "fi.construction.asutko",
+        "fi.adjective.englantilainen"
+      ]
+    },
+    {
+      "id": "line-141",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Kyllä, asun Helsingissä.",
+      "intent": "ask_or_state_residence",
+      "direction": {
+        "pause_after_ms": 1000
+      },
+      "role": "answer_key",
+      "translations": {
+        "fr-FR": "Oui, j’habite à Helsinki."
+      },
+      "unit_ids": [
+        "fi.response.kylla"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "unit_id": "fi.greeting.hei",
+      "finnish": "Hei",
+      "translations": {
+        "fr-FR": "Bonjour"
+      }
+    },
+    {
+      "unit_id": "fi.construction.oletko",
+      "finnish": "Oletko…?",
+      "translations": {
+        "fr-FR": "Est-ce que tu es… ?"
+      }
+    },
+    {
+      "unit_id": "fi.pronoun.sina",
+      "finnish": "sinä",
+      "translations": {
+        "fr-FR": "tu"
+      }
+    },
+    {
+      "unit_id": "fi.construction.olen",
+      "finnish": "Olen…",
+      "translations": {
+        "fr-FR": "Je suis…"
+      }
+    },
+    {
+      "unit_id": "fi.construction.en-ole",
+      "finnish": "En ole…",
+      "translations": {
+        "fr-FR": "Je ne suis pas…"
+      }
+    },
+    {
+      "unit_id": "fi.construction.minun-nimeni-on",
+      "finnish": "Minun nimeni on…",
+      "translations": {
+        "fr-FR": "Je m’appelle…"
+      }
+    },
+    {
+      "unit_id": "fi.expression.enta-sina",
+      "finnish": "Entä sinä?",
+      "translations": {
+        "fr-FR": "Et toi ?"
+      }
+    },
+    {
+      "unit_id": "fi.expression.hauska-tavata",
+      "finnish": "Hauska tavata",
+      "translations": {
+        "fr-FR": "Enchanté / Enchantée"
+      }
+    },
+    {
+      "unit_id": "fi.adjective.suomalainen",
+      "finnish": "suomalainen",
+      "translations": {
+        "fr-FR": "finlandais / finlandaise"
+      }
+    },
+    {
+      "unit_id": "fi.adjective.englantilainen",
+      "finnish": "englantilainen",
+      "translations": {
+        "fr-FR": "anglais / anglaise"
+      }
+    },
+    {
+      "unit_id": "fi.construction.asutko",
+      "finnish": "Asutko…?",
+      "translations": {
+        "fr-FR": "Est-ce que tu habites… ?"
+      }
+    },
+    {
+      "unit_id": "fi.construction.asun",
+      "finnish": "Asun…",
+      "translations": {
+        "fr-FR": "J’habite…"
+      }
+    },
+    {
+      "unit_id": "fi.construction.en-asu",
+      "finnish": "En asu…",
+      "translations": {
+        "fr-FR": "Je n’habite pas…"
+      }
+    },
+    {
+      "unit_id": "fi.construction.tyoskentelen",
+      "finnish": "Työskentelen…",
+      "translations": {
+        "fr-FR": "Je travaille…"
+      }
+    },
+    {
+      "unit_id": "fi.response.kylla",
+      "finnish": "Kyllä",
+      "translations": {
+        "fr-FR": "Oui"
+      }
+    },
+    {
+      "unit_id": "fi.conjunction.mutta",
+      "finnish": "mutta",
+      "translations": {
+        "fr-FR": "mais"
+      }
+    },
+    {
+      "unit_id": "fi.place.helsinki",
+      "finnish": "Helsinki",
+      "translations": {
+        "fr-FR": "Helsinki"
+      }
+    },
+    {
+      "unit_id": "fi.place.lontoo",
+      "finnish": "Lontoo",
+      "translations": {
+        "fr-FR": "Londres"
+      }
+    }
+  ]
+}

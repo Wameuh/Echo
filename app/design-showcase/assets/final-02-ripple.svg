@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Echo Ripple, version affinée</title>
+  <rect x="6" y="6" width="116" height="116" rx="38" fill="#17352C"/>
+  <circle cx="31" cy="64" r="8" fill="#FF7657"/>
+  <path d="M48 50c7 8 7 20 0 28M64 38c14 15 14 37 0 52M81 27c21 21 21 53 0 74" fill="none" stroke="#D8F277" stroke-width="9" stroke-linecap="round"/>
+</svg>

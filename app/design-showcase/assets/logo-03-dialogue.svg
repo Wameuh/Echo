@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="t3">
+  <title id="t3">Echo Dialogue</title>
+  <rect x="6" y="6" width="116" height="116" rx="34" fill="#17352C"/>
+  <path d="M24 29h66a12 12 0 0 1 12 12v29A12 12 0 0 1 90 82H57L39 97V82H24A12 12 0 0 1 12 70V41a12 12 0 0 1 12-12Z" fill="#D8F277" transform="translate(7 0)"/>
+  <path d="M45 46h38M45 58h27" fill="none" stroke="#17352C" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="91" cy="83" r="12" fill="#FF7657"/>
+</svg>

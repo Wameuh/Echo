@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "lesson_id": "suomi-beginner-lesson-2",
+  "memory": {
+    "id": "memory-01",
+    "instruction": {
+      "fr-FR": "Associez chaque expression à son illustration."
+    },
+    "pairs": [
+      {
+        "id": "memory-01",
+        "word": "Hyvää huomenta.",
+        "illustration": "art/pending.png",
+        "illustration_label": {
+          "fr-FR": "Bonjour (le matin)."
+        },
+        "unit_ids": [
+          "fi.lesson-002.introduced.01-hyvaa-huomenta"
+        ],
+        "media_status": "pending"
+      },
+      {
+        "id": "memory-02",
+        "word": "Hyvää päivää.",
+        "illustration": "art/pending.png",
+        "illustration_label": {
+          "fr-FR": "Bonjour (dans la journée)."
+        },
+        "unit_ids": [
+          "fi.lesson-002.introduced.02-hyvaa-paivaa"
+        ],
+        "media_status": "pending"
+      },
+      {
+        "id": "memory-03",
+        "word": "Hyvää iltaa.",
+        "illustration": "art/pending.png",
+        "illustration_label": {
+          "fr-FR": "Bonsoir."
+        },
+        "unit_ids": [
+          "fi.lesson-002.introduced.03-hyvaa-iltaa"
+        ],
+        "media_status": "pending"
+      },
+      {
+        "id": "memory-04",
+        "word": "Mitä kuuluu?",
+        "illustration": "art/pending.png",
+        "illustration_label": {
+          "fr-FR": "Comment vas-tu ?"
+        },
+        "unit_ids": [
+          "fi.lesson-002.introduced.04-mita-kuuluu"
+        ],
+        "media_status": "pending"
+      },
+      {
+        "id": "memory-05",
+        "word": "Minulle kuuluu hyvää, kiitos.",
+        "illustration": "art/pending.png",
+        "illustration_label": {
+          "fr-FR": "Je vais bien, merci."
+        },
+        "unit_ids": [
+          "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos"
+        ],
+        "media_status": "pending"
+      },
+      {
+        "id": "memory-06",
+        "word": "Entä sinulle?",
+        "illustration": "art/pending.png",
+        "illustration_label": {
+          "fr-FR": "Et toi ?"
+        },
+        "unit_ids": [
+          "fi.lesson-002.introduced.06-enta-sinulle"
+        ],
+        "media_status": "pending"
+      }
+    ]
+  },
+  "games": [
+    {
+      "id": "game-word-order",
+      "type": "word_order",
+      "instruction": {
+        "fr-FR": "Remettez les éléments dans l'ordre."
+      },
+      "skill": "written_production",
+      "tiles": [
+        "Hyvää",
+        "huomenta"
+      ],
+      "answer": "Hyvää huomenta",
+      "translation": {
+        "fr-FR": "Bonjour (le matin)."
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.01-hyvaa-huomenta"
+      ]
+    },
+    {
+      "id": "game-meaning",
+      "type": "meaning_choice",
+      "instruction": {
+        "fr-FR": "Choisissez le sens de l'expression."
+      },
+      "skill": "reading_recognition",
+      "prompt": "Hyvää huomenta.",
+      "choices": [
+        "Bonjour (le matin).",
+        "Aucune de ces réponses"
+      ],
+      "answer": "Bonjour (le matin).",
+      "unit_ids": [
+        "fi.lesson-002.introduced.01-hyvaa-huomenta"
+      ]
+    },
+    {
+      "id": "game-cloze",
+      "type": "cloze",
+      "instruction": {
+        "fr-FR": "Complétez l'expression."
+      },
+      "skill": "productive_recall",
+      "prompt": "_____ päivää.",
+      "answer": "Hyvää",
+      "completed_text": "Hyvää päivää.",
+      "translation": {
+        "fr-FR": "Bonjour (dans la journée)."
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.02-hyvaa-paivaa"
+      ]
+    },
+    {
+      "id": "game-situation",
+      "type": "situation_choice",
+      "instruction": {
+        "fr-FR": "Choisissez l'expression adaptée à la situation."
+      },
+      "skill": "meaning_recall",
+      "situation": {
+        "fr-FR": "Saluer selon le moment et demander comment va une personne."
+      },
+      "choices": [
+        "Hyvää huomenta.",
+        "Hyvää päivää.",
+        "Hyvää iltaa."
+      ],
+      "answer": "Hyvää huomenta.",
+      "unit_ids": [
+        "fi.lesson-002.introduced.01-hyvaa-huomenta",
+        "fi.lesson-002.introduced.02-hyvaa-paivaa",
+        "fi.lesson-002.introduced.03-hyvaa-iltaa"
+      ]
+    }
+  ],
+  "review_status": "needs_human_review"
+}

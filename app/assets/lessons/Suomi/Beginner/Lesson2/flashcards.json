@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "lesson_id": "suomi-beginner-lesson-2",
+  "cards": [
+    {
+      "id": "card-001",
+      "unit_id": "fi.lesson-002.introduced.01-hyvaa-huomenta",
+      "front": {
+        "fr-FR": "Bonjour (le matin)."
+      },
+      "back": {
+        "fi-FI": "Hyvää huomenta."
+      },
+      "audio_status": "generated"
+    },
+    {
+      "id": "card-002",
+      "unit_id": "fi.lesson-002.introduced.02-hyvaa-paivaa",
+      "front": {
+        "fr-FR": "Bonjour (dans la journée)."
+      },
+      "back": {
+        "fi-FI": "Hyvää päivää."
+      },
+      "audio_status": "generated"
+    },
+    {
+      "id": "card-003",
+      "unit_id": "fi.lesson-002.introduced.03-hyvaa-iltaa",
+      "front": {
+        "fr-FR": "Bonsoir."
+      },
+      "back": {
+        "fi-FI": "Hyvää iltaa."
+      },
+      "audio_status": "generated"
+    },
+    {
+      "id": "card-004",
+      "unit_id": "fi.lesson-002.introduced.04-mita-kuuluu",
+      "front": {
+        "fr-FR": "Comment vas-tu ?"
+      },
+      "back": {
+        "fi-FI": "Mitä kuuluu?"
+      },
+      "audio_status": "generated"
+    },
+    {
+      "id": "card-005",
+      "unit_id": "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos",
+      "front": {
+        "fr-FR": "Je vais bien, merci."
+      },
+      "back": {
+        "fi-FI": "Minulle kuuluu hyvää, kiitos."
+      },
+      "audio_status": "generated"
+    },
+    {
+      "id": "card-006",
+      "unit_id": "fi.lesson-002.introduced.06-enta-sinulle",
+      "front": {
+        "fr-FR": "Et toi ?"
+      },
+      "back": {
+        "fi-FI": "Entä sinulle?"
+      },
+      "audio_status": "generated"
+    },
+    {
+      "id": "card-007",
+      "unit_id": "fi.lesson-002.introduced.07-minullekin-kuuluu-hyvaa",
+      "front": {
+        "fr-FR": "Moi aussi, je vais bien."
+      },
+      "back": {
+        "fi-FI": "Minullekin kuuluu hyvää."
+      },
+      "audio_status": "generated"
+    },
+    {
+      "id": "card-008",
+      "unit_id": "fi.lesson-002.introduced.08-onko-sinulla-aikaa",
+      "front": {
+        "fr-FR": "As-tu du temps ?"
+      },
+      "back": {
+        "fi-FI": "Onko sinulla aikaa?"
+      },
+      "audio_status": "generated"
+    },
+    {
+      "id": "card-009",
+      "unit_id": "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa",
+      "front": {
+        "fr-FR": "Oui, j'ai un peu de temps."
+      },
+      "back": {
+        "fi-FI": "Kyllä, minulla on vähän aikaa."
+      },
+      "audio_status": "generated"
+    },
+    {
+      "id": "card-010",
+      "unit_id": "fi.lesson-002.target.02-nahdaan-myohemmin",
+      "front": {
+        "fr-FR": "À plus tard."
+      },
+      "back": {
+        "fi-FI": "Nähdään myöhemmin."
+      },
+      "audio_status": "generated"
+    }
+  ],
+  "optional_candidates": [],
+  "policy": {
+    "automatic_creation_on_token_touch": false
+  }
+}

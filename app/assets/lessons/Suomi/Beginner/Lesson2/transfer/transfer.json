@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "lesson_id": "suomi-beginner-lesson-2",
+  "id": "transfer-lesson-002",
+  "context": {
+    "fr-FR": "Un second échange réutilise les acquis avec d'autres personnages."
+  },
+  "lines": [
+    {
+      "id": "transfer-line-001",
+      "speaker": "sofia",
+      "text": "Hyvää iltaa.",
+      "translations": {
+        "fr-FR": "Bonsoir."
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.03-hyvaa-iltaa"
+      ],
+      "review_status": "needs_human_review"
+    },
+    {
+      "id": "transfer-line-002",
+      "speaker": "daniel",
+      "text": "Mitä kuuluu?",
+      "translations": {
+        "fr-FR": "Comment vas-tu ?"
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.04-mita-kuuluu"
+      ],
+      "review_status": "needs_human_review"
+    },
+    {
+      "id": "transfer-line-003",
+      "speaker": "sofia",
+      "text": "Minulle kuuluu hyvää, kiitos.",
+      "translations": {
+        "fr-FR": "Je vais bien, merci."
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos"
+      ],
+      "review_status": "needs_human_review"
+    },
+    {
+      "id": "transfer-line-004",
+      "speaker": "daniel",
+      "text": "Entä sinulle?",
+      "translations": {
+        "fr-FR": "Et toi ?"
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.06-enta-sinulle"
+      ],
+      "review_status": "needs_human_review"
+    },
+    {
+      "id": "transfer-line-005",
+      "speaker": "sofia",
+      "text": "Minullekin kuuluu hyvää.",
+      "translations": {
+        "fr-FR": "Moi aussi, je vais bien."
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.07-minullekin-kuuluu-hyvaa"
+      ],
+      "review_status": "needs_human_review"
+    },
+    {
+      "id": "transfer-line-006",
+      "speaker": "daniel",
+      "text": "Onko sinulla aikaa?",
+      "translations": {
+        "fr-FR": "As-tu du temps ?"
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.08-onko-sinulla-aikaa"
+      ],
+      "review_status": "needs_human_review"
+    },
+    {
+      "id": "transfer-line-007",
+      "speaker": "sofia",
+      "text": "Kyllä, minulla on vähän aikaa.",
+      "translations": {
+        "fr-FR": "Oui, j'ai un peu de temps."
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa"
+      ],
+      "review_status": "needs_human_review"
+    },
+    {
+      "id": "transfer-line-008",
+      "speaker": "daniel",
+      "text": "Nähdään myöhemmin.",
+      "translations": {
+        "fr-FR": "À plus tard."
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.02-nahdaan-myohemmin"
+      ],
+      "review_status": "needs_human_review"
+    }
+  ],
+  "questions": [
+    {
+      "id": "transfer-question-001",
+      "type": "short_answer",
+      "prompt": {
+        "fr-FR": "Quelle expression ouvre le nouvel échange ?"
+      },
+      "accepted_answers": [
+        "Hyvää iltaa."
+      ],
+      "evidence_line_id": "transfer-line-001",
+      "unit_ids": [
+        "fi.lesson-002.introduced.03-hyvaa-iltaa"
+      ]
+    }
+  ],
+  "audio": {
+    "status": "generated"
+  },
+  "review_status": "needs_human_review"
+}

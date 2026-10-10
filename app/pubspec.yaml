@@ -1,0 +1,65 @@
+name: echo
+description: "Echo, a calm and audio-first Finnish learning experience."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.3.0
+  go_router: ^18.0.1
+  just_audio: ^0.10.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lessons/Suomi/Beginner/Lesson1/content.json
+    - assets/lessons/Suomi/Beginner/Lesson1/session.json
+    - assets/lessons/Suomi/Beginner/Lesson1/units.json
+    - assets/lessons/Suomi/Beginner/Lesson1/flashcards.json
+    - assets/lessons/Suomi/Beginner/Lesson1/localization/fr-FR.json
+    - assets/lessons/Suomi/Beginner/Lesson1/readings/meeting-at-work.json
+    - assets/lessons/Suomi/Beginner/Lesson1/comprehension/opening-audio.json
+    - assets/lessons/Suomi/Beginner/Lesson1/comprehension/meeting-at-work.json
+    - assets/lessons/Suomi/Beginner/Lesson1/games/practice-set-01.json
+    - assets/lessons/Suomi/Beginner/Lesson1/transfer/sofia-and-daniel.json
+    - assets/lessons/Suomi/Beginner/Lesson1/audio/manifest.json
+    - assets/lessons/Suomi/Beginner/Lesson1/audio/full.wav
+    - assets/lessons/Suomi/Beginner/Lesson1/audio/segments/
+    - assets/lessons/Suomi/Beginner/Lesson1/art/
+    - assets/lessons/Suomi/Beginner/Lesson1/story/story.json
+    - assets/lessons/Suomi/Beginner/Lesson2/content.json
+    - assets/lessons/Suomi/Beginner/Lesson2/session.json
+    - assets/lessons/Suomi/Beginner/Lesson2/units.json
+    - assets/lessons/Suomi/Beginner/Lesson2/flashcards.json
+    - assets/lessons/Suomi/Beginner/Lesson2/localization/fr-FR.json
+    - assets/lessons/Suomi/Beginner/Lesson2/readings/reading.json
+    - assets/lessons/Suomi/Beginner/Lesson2/comprehension/opening-audio.json
+    - assets/lessons/Suomi/Beginner/Lesson2/comprehension/reading.json
+    - assets/lessons/Suomi/Beginner/Lesson2/games/practice-set-01.json
+    - assets/lessons/Suomi/Beginner/Lesson2/transfer/transfer.json
+    - assets/lessons/Suomi/Beginner/Lesson2/writing/task.json
+    - assets/lessons/Suomi/Beginner/Lesson2/story/story.json
+    - assets/lessons/Suomi/Beginner/Lesson2/audio/manifest.json
+    - assets/lessons/Suomi/Beginner/Lesson2/audio/full.wav
+    - assets/lessons/Suomi/Beginner/Lesson2/audio/segments/
+    - assets/lessons/Suomi/Beginner/Lesson2/art/
+    - assets/lessons/Suomi/Beginner/placement.json
+    - design-showcase/assets/echo-mark.svg
+    - design-showcase/assets/echo-mark-flat.svg
+  fonts:
+    - family: DM Sans
+      fonts:
+        - asset: assets/fonts/DMSans-Variable.ttf
+    - family: Newsreader
+      fonts:
+        - asset: assets/fonts/Newsreader-Variable.ttf

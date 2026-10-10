@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "id": "suomi-beginner-lesson-1-session",
+  "lesson_id": "suomi-beginner-lesson-1",
+  "target_language": "fi-FI",
+  "default_support_locale": "fr-FR",
+  "fallback_support_locale": "fr-FR",
+  "token_index_convention": "Unicode code-point offsets; start inclusive, end exclusive",
+  "activities": [
+    {
+      "order": 1,
+      "type": "context",
+      "content_ref": "content.json#/lesson"
+    },
+    {
+      "order": 2,
+      "type": "global_listening",
+      "content_ref": "content.json#/dialogue"
+    },
+    {
+      "order": 3,
+      "type": "roleplay",
+      "content_ref": "content.json#/dialogue"
+    },
+    {
+      "order": 4,
+      "type": "transition",
+      "content_ref": "localization/fr-FR.json#/strings/lesson1.transition.reading"
+    },
+    {
+      "order": 5,
+      "type": "reading",
+      "content_ref": "readings/meeting-at-work.json"
+    },
+    {
+      "order": 6,
+      "type": "reading_comprehension",
+      "content_ref": "comprehension/meeting-at-work.json"
+    },
+    {
+      "order": 7,
+      "type": "memory",
+      "content_ref": "games/practice-set-01.json#/memory"
+    },
+    {
+      "order": 8,
+      "type": "adaptive_games",
+      "content_ref": "games/practice-set-01.json"
+    },
+    {
+      "order": 9,
+      "type": "audio_transfer",
+      "content_ref": "transfer/sofia-and-daniel.json"
+    },
+    {
+      "order": 10,
+      "type": "selective_flashcards",
+      "content_ref": "flashcards.json"
+    },
+    {
+      "order": 11,
+      "type": "summary_and_spacing",
+      "content_ref": "session.json#/progression"
+    }
+  ],
+  "self_assessment_scale": [
+    "forgotten",
+    "difficult",
+    "hesitant",
+    "easy"
+  ],
+  "help_tracking": [
+    "word_translation",
+    "sentence_translation",
+    "grammar_explanation",
+    "replay"
+  ],
+  "progression": {
+    "failure": [
+      "same_day",
+      "next_day"
+    ],
+    "success_with_help_days": [
+      1,
+      2
+    ],
+    "autonomous_success_days": [
+      3
+    ],
+    "two_context_success_days": [
+      7
+    ],
+    "diversified_success_days": [
+      14,
+      30
+    ],
+    "preferred_next_encounter": [
+      "unseen_activity",
+      "new_context",
+      "new_modality",
+      "targeted_replay_if_needed"
+    ]
+  },
+  "completion_summary_fields": [
+    "audio_understood_units",
+    "reading_recognized_units",
+    "recalled_without_model",
+    "translations_opened",
+    "questions_succeeded",
+    "perception_or_production_difficulties",
+    "next_modality"
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "id": "lesson1-practice-set-01",
+  "selection": {
+    "mode": "adaptive",
+    "all_required": false
+  },
+  "memory": {
+    "id": "lesson1-memory-words",
+    "instruction": {
+      "fr-FR": "Retrouve chaque mot finnois et son dessin."
+    },
+    "pairs": [
+      {
+        "id": "memory-hei",
+        "word": "Hei",
+        "illustration": "wave",
+        "illustration_label": {
+          "fr-FR": "une personne qui salue"
+        },
+        "unit_ids": [
+          "fi.greeting.hei"
+        ]
+      },
+      {
+        "id": "memory-sina",
+        "word": "sinä",
+        "illustration": "person",
+        "illustration_label": {
+          "fr-FR": "la personne à qui l’on parle"
+        },
+        "unit_ids": [
+          "fi.pronoun.sina"
+        ]
+      },
+      {
+        "id": "memory-kahvila",
+        "word": "kahvila",
+        "illustration": "cafe",
+        "illustration_label": {
+          "fr-FR": "la devanture d’un café"
+        },
+        "unit_ids": [
+          "fi.noun.kahvila"
+        ]
+      },
+      {
+        "id": "memory-helsinki",
+        "word": "Helsinki",
+        "illustration": "city",
+        "illustration_label": {
+          "fr-FR": "une ville"
+        },
+        "unit_ids": [
+          "fi.place.helsinki"
+        ]
+      },
+      {
+        "id": "memory-work",
+        "word": "työskentelen",
+        "illustration": "work",
+        "illustration_label": {
+          "fr-FR": "une mallette de travail"
+        },
+        "unit_ids": [
+          "fi.construction.tyoskentelen"
+        ]
+      },
+      {
+        "id": "memory-name",
+        "word": "Minun nimeni on",
+        "illustration": "name",
+        "illustration_label": {
+          "fr-FR": "une personne qui donne son nom"
+        },
+        "unit_ids": [
+          "fi.construction.minun-nimeni-on"
+        ]
+      }
+    ]
+  },
+  "games": [
+    {
+      "id": "game-a-word-guess",
+      "type": "word_guess",
+      "instruction": {
+        "fr-FR": "Retrouvez un mot central de la leçon, lettre après lettre."
+      },
+      "skill": "orthographic_recall",
+      "answer": "suomalainen",
+      "clue": {
+        "fr-FR": "finlandais / finlandaise"
+      },
+      "max_attempts": 6,
+      "unit_ids": [
+        "fi.adjective.suomalainen"
+      ]
+    },
+    {
+      "id": "game-b-qa",
+      "type": "matching_pairs",
+      "instruction": {
+        "fr-FR": "Associez chaque question à la réponse qui convient."
+      },
+      "skill": "question_function_recognition",
+      "pairs": [
+        {
+          "left": "Oletko suomalainen?",
+          "right": "Kyllä, olen suomalainen.",
+          "translations": {
+            "fr-FR": [
+              "Est-ce que tu es finlandais ?",
+              "Oui, je suis finlandais."
+            ]
+          }
+        },
+        {
+          "left": "Asutko Helsingissä?",
+          "right": "Kyllä, asun Helsingissä.",
+          "translations": {
+            "fr-FR": [
+              "Est-ce que tu habites à Helsinki ?",
+              "Oui, j’habite à Helsinki."
+            ]
+          }
+        },
+        {
+          "left": "Oletko sinä Anna?",
+          "right": "Kyllä, minä olen Anna.",
+          "translations": {
+            "fr-FR": [
+              "Est-ce que tu es Anna ?",
+              "Oui, je suis Anna."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "game-c-order",
+      "type": "word_order",
+      "instruction": {
+        "fr-FR": "Remettez les éléments dans l’ordre pour former la phrase."
+      },
+      "skill": "introduction_structure",
+      "tiles": [
+        "Minun nimeni",
+        "on",
+        "Laura"
+      ],
+      "answer": "Minun nimeni on Laura.",
+      "translation": {
+        "fr-FR": "Je m’appelle Laura."
+      },
+      "unit_ids": [
+        "fi.construction.minun-nimeni-on"
+      ]
+    },
+    {
+      "id": "game-d-cloze",
+      "type": "cloze",
+      "instruction": {
+        "fr-FR": "Complétez la phrase : James indique sa nationalité."
+      },
+      "skill": "productive_recall",
+      "prompt": "_____ englantilainen.",
+      "choices": [
+        "Olen",
+        "Asun",
+        "Oletko"
+      ],
+      "answer": "Olen",
+      "completed_text": "Olen englantilainen.",
+      "translation": {
+        "fr-FR": "Je suis anglais."
+      },
+      "unit_ids": [
+        "fi.construction.olen",
+        "fi.adjective.englantilainen"
+      ]
+    },
+    {
+      "id": "game-e-intent",
+      "type": "single_choice",
+      "instruction": {
+        "fr-FR": "Choisissez la phrase pour demander où habite quelqu’un."
+      },
+      "skill": "communicative_intent",
+      "choices": [
+        "Oletko suomalainen?",
+        "Asutko Helsingissä?",
+        "Minun nimeni on Anna."
+      ],
+      "answer": "Asutko Helsingissä?",
+      "choice_translations": {
+        "fr-FR": [
+          "Est-ce que tu es finlandais ?",
+          "Est-ce que tu habites à Helsinki ?",
+          "Je m’appelle Anna."
+        ]
+      }
+    },
+    {
+      "id": "game-f-audio",
+      "type": "audio_discrimination",
+      "instruction": {
+        "fr-FR": "Choisissez la phrase entendue."
+      },
+      "skill": "listening_discrimination",
+      "choices": [
+        "Oletko suomalainen?",
+        "Asutko Helsingissä?"
+      ],
+      "choice_translations": {
+        "fr-FR": [
+          "Est-ce que tu es finlandais ?",
+          "Est-ce que tu habites à Helsinki ?"
+        ]
+      },
+      "audio": {
+        "status": "generated",
+        "required_segment_ids": [
+          "line-068",
+          "line-080"
+        ],
+        "comparable_quality_required": true
+      }
+    }
+  ]
+}

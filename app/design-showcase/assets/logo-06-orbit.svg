@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="t6">
+  <title id="t6">Echo Orbit</title>
+  <rect x="6" y="6" width="116" height="116" rx="58" fill="#17352C"/>
+  <circle cx="64" cy="64" r="33" fill="none" stroke="#D8F277" stroke-width="11"/>
+  <path d="M31 64h62" fill="none" stroke="#D8F277" stroke-width="11" stroke-linecap="round"/>
+  <path d="M18 43c18-29 69-36 93-8" fill="none" stroke="#A9D8E9" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="108" cy="34" r="8" fill="#FF7657"/>
+</svg>

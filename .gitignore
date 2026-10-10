@@ -1,0 +1,53 @@
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+*.pyc
+**/__pycache__/
+**/.pytest_cache/
+
+# Application Flutter : artefacts propres à une machine
+app/.dart_tool/
+app/.tooling/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/.packages
+app/build/
+app/coverage/
+app/android/.gradle/
+app/android/local.properties
+app/android/app/debug/
+app/android/app/profile/
+app/android/app/release/
+
+# Production audio : environnements, modèles, caches et travaux intermédiaires
+audio-generation/.venv*/
+audio-generation/.cache/
+audio-generation/.local/
+audio-generation/models/
+audio-generation/outputs/
+audio-generation/build/
+# Le pipeline Higgs et ses sources restent hors du dépôt Git.
+/audio-generation/
+# Notes de recherche et d’architecture conservées localement.
+/docs/architecture/
+# Maquettes et explorations visuelles conservées localement ; les SVG restent suivis.
+/app/design-showcase/*.md
+/app/design-showcase/*.html
+/app/design-showcase/*.css
+/app/design-showcase/*.js
+# Références vocales : elles doivent rester hors du dépôt
+audio-generation/references/
+audio-generation/**/references/
+audio-generation/**/*reference*.wav
+audio-generation/**/*reference*.flac
+audio-generation/**/*reference*.m4a
+audio-generation/**/*reference*.mp3
+audio-generation/**/*reference*.txt
+audio-generation/**/*transcript*.txt
+audio-generation/**/*.safetensors
+audio-generation/**/*.pt
+audio-generation/**/*.wav
+audio-generation/**/*.mp3
+audio-generation/**/*.ogg
+
+# Les médias validés placés sous app/assets restent volontairement versionnables.

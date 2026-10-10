@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "lesson1-opening-audio-comprehension",
+  "source": {
+    "type": "audio_section",
+    "id": "opening_conversation"
+  },
+  "questions": [
+    {
+      "id": "opening-q1",
+      "type": "single_choice",
+      "prompt": {
+        "fr-FR": "Où Anna habite-t-elle ?"
+      },
+      "choices": [
+        {
+          "id": "london",
+          "text": {
+            "fr-FR": "à Londres"
+          }
+        },
+        {
+          "id": "helsinki",
+          "text": {
+            "fr-FR": "à Helsinki"
+          }
+        },
+        {
+          "id": "espoo",
+          "text": {
+            "fr-FR": "à Espoo"
+          }
+        }
+      ],
+      "correct_choice_id": "london",
+      "skill": "global_listening_comprehension",
+      "retry": {
+        "offer_second_listen": true,
+        "then_offer_transcript": true
+      }
+    }
+  ]
+}

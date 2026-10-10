@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "id": "lesson1-transfer-sofia-and-daniel",
+  "lesson_id": "suomi-beginner-lesson-1",
+  "objective": {
+    "fr-FR": "Comprendre les mêmes constructions avec de nouveaux personnages et une nouvelle ville."
+  },
+  "audio": {
+    "status": "generated",
+    "voice_constraint": "same_gender_reference_as_main_characters"
+  },
+  "lines": [
+    {
+      "id": "transfer-line-001",
+      "speaker": "sofia",
+      "text": "Hei. Minun nimeni on Sofia. Oletko sinä Daniel?",
+      "translations": {
+        "fr-FR": "Bonjour. Je m’appelle Sofia. Est-ce que tu es Daniel ?"
+      },
+      "unit_ids": [
+        "fi.construction.minun-nimeni-on",
+        "fi.construction.oletko",
+        "fi.greeting.hei"
+      ]
+    },
+    {
+      "id": "transfer-line-002",
+      "speaker": "daniel",
+      "text": "Kyllä, minä olen Daniel. Hauska tavata.",
+      "translations": {
+        "fr-FR": "Oui, je suis Daniel. Enchanté."
+      },
+      "unit_ids": [
+        "fi.expression.hauska-tavata",
+        "fi.response.kylla"
+      ]
+    },
+    {
+      "id": "transfer-line-003",
+      "speaker": "sofia",
+      "text": "Hauska tavata. Asutko Helsingissä?",
+      "translations": {
+        "fr-FR": "Enchantée. Est-ce que tu habites à Helsinki ?"
+      },
+      "unit_ids": [
+        "fi.expression.hauska-tavata",
+        "fi.construction.asutko"
+      ]
+    },
+    {
+      "id": "transfer-line-004",
+      "speaker": "daniel",
+      "text": "En asu Helsingissä. Asun Espoossa.",
+      "translations": {
+        "fr-FR": "Je n’habite pas à Helsinki. J’habite à Espoo."
+      },
+      "unit_ids": [
+        "fi.construction.en-asu",
+        "fi.construction.asun",
+        "fi.place.espoo"
+      ]
+    },
+    {
+      "id": "transfer-line-005",
+      "speaker": "sofia",
+      "text": "Oletko suomalainen?",
+      "translations": {
+        "fr-FR": "Est-ce que tu es finlandais ?"
+      },
+      "unit_ids": [
+        "fi.construction.oletko",
+        "fi.adjective.suomalainen"
+      ]
+    },
+    {
+      "id": "transfer-line-006",
+      "speaker": "daniel",
+      "text": "En ole suomalainen. Olen englantilainen.",
+      "translations": {
+        "fr-FR": "Je ne suis pas finlandais. Je suis anglais."
+      },
+      "unit_ids": [
+        "fi.construction.en-ole",
+        "fi.construction.olen",
+        "fi.adjective.suomalainen",
+        "fi.adjective.englantilainen"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "transfer-q1",
+      "type": "boolean",
+      "prompt": {
+        "fr-FR": "Daniel habite-t-il à Helsinki ?"
+      },
+      "accepted_answers": [
+        "non"
+      ],
+      "evidence_line_id": "transfer-line-004"
+    },
+    {
+      "id": "transfer-q2",
+      "type": "short_answer",
+      "prompt": {
+        "fr-FR": "Quelle est la nationalité de Daniel ?"
+      },
+      "accepted_answers": [
+        "anglais",
+        "anglaise"
+      ],
+      "evidence_line_id": "transfer-line-006"
+    }
+  ]
+}

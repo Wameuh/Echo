@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Logo animé Echo Voiceprint</title>
+  <desc id="desc">Le carré reste immobile pendant que six barres verticales ondulent comme un signal vocal.</desc>
+  <style>
+    .voice-bar {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: voice 2.8s cubic-bezier(.3,.7,.3,1) infinite;
+    }
+    .b2 { animation-delay: .07s; }
+    .b3 { animation-delay: .14s; }
+    .b4 { animation-delay: .21s; }
+    .b5 { animation-delay: .28s; }
+    .b6 { animation-delay: .35s; }
+    @keyframes voice {
+      0%, 4%, 48%, 100% { transform: scaleY(1); }
+      17% { transform: scaleY(.32); }
+      29% { transform: scaleY(1.16); }
+      38% { transform: scaleY(.86); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .voice-bar { animation: none; }
+    }
+  </style>
+  <rect x="6" y="6" width="116" height="116" rx="38" fill="#17352C"/>
+  <path class="voice-bar b1" d="M29 54v20" fill="none" stroke="#D8F277" stroke-width="8" stroke-linecap="round"/>
+  <path class="voice-bar b2" d="M43 42v44" fill="none" stroke="#D8F277" stroke-width="8" stroke-linecap="round"/>
+  <path class="voice-bar b3" d="M57 30v68" fill="none" stroke="#D8F277" stroke-width="8" stroke-linecap="round"/>
+  <path class="voice-bar b4" d="M71 39v50" fill="none" stroke="#D8F277" stroke-width="8" stroke-linecap="round"/>
+  <path class="voice-bar b5" d="M85 48v32" fill="none" stroke="#D8F277" stroke-width="8" stroke-linecap="round"/>
+  <path class="voice-bar b6" d="M99 56v16" fill="none" stroke="#D8F277" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="99" cy="91" r="8" fill="#FF7657"/>
+</svg>

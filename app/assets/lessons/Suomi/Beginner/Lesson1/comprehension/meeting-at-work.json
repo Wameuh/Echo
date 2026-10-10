@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "id": "lesson1-reading-comprehension",
+  "source_id": "lesson1-reading-meeting-at-work",
+  "questions": [
+    {
+      "id": "reading-q1",
+      "type": "single_choice",
+      "prompt": {
+        "fr-FR": "Comment s’appelle la femme ?"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": {
+            "fr-FR": "Anna"
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": {
+            "fr-FR": "Laura"
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": {
+            "fr-FR": "James"
+          }
+        }
+      ],
+      "accepted_answers": [
+        "Laura"
+      ],
+      "evidence_sentence_id": "reading-01-sentence-001",
+      "evidence_is_interactive": true,
+      "skill": "reading_comprehension"
+    },
+    {
+      "id": "reading-q2",
+      "type": "boolean",
+      "prompt": {
+        "fr-FR": "Laura est-elle finlandaise ?"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": {
+            "fr-FR": "oui"
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": {
+            "fr-FR": "non"
+          }
+        }
+      ],
+      "accepted_answers": [
+        "oui"
+      ],
+      "evidence_sentence_id": "reading-01-sentence-001",
+      "evidence_is_interactive": true,
+      "skill": "reading_comprehension"
+    },
+    {
+      "id": "reading-q3",
+      "type": "single_choice",
+      "prompt": {
+        "fr-FR": "Où habite James ?"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": {
+            "fr-FR": "à Helsinki"
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": {
+            "fr-FR": "à Londres"
+          }
+        },
+        {
+          "id": "choice-3",
+          "text": {
+            "fr-FR": "dans le café"
+          }
+        }
+      ],
+      "accepted_answers": [
+        "à Londres"
+      ],
+      "evidence_sentence_id": "reading-01-sentence-004",
+      "evidence_is_interactive": true,
+      "skill": "reading_comprehension"
+    },
+    {
+      "id": "reading-q4",
+      "type": "boolean",
+      "prompt": {
+        "fr-FR": "James habite-t-il à Helsinki ?"
+      },
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": {
+            "fr-FR": "oui"
+          }
+        },
+        {
+          "id": "choice-2",
+          "text": {
+            "fr-FR": "non"
+          }
+        }
+      ],
+      "accepted_answers": [
+        "non"
+      ],
+      "evidence_sentence_id": "reading-01-sentence-006",
+      "evidence_is_interactive": true,
+      "skill": "reading_comprehension"
+    },
+    {
+      "id": "reading-q5",
+      "type": "target_phrase",
+      "prompt": {
+        "fr-FR": "Quelle phrase James utilise-t-il pour dire qu’il habite à Londres ?"
+      },
+      "choices": [],
+      "accepted_answers": [
+        "Asun Lontoossa."
+      ],
+      "evidence_sentence_id": "reading-01-sentence-006",
+      "evidence_is_interactive": true,
+      "skill": "cross_context_transfer"
+    }
+  ]
+}

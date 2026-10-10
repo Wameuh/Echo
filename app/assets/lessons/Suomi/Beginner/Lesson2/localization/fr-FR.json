@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "lesson_id": "suomi-beginner-lesson-2",
+  "locale": "fr-FR",
+  "strings": {
+    "lesson.title": "Saluer et demander des nouvelles",
+    "lesson.can_do": "Saluer selon le moment et demander comment va une personne.",
+    "writing.prompt": "Écrivez environ 2 phrases pour accomplir l'objectif suivant : Saluer selon le moment et demander comment va une personne."
+  },
+  "review_status": "needs_human_review"
+}

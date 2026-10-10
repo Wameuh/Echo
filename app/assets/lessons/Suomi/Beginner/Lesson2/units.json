@@ -1,0 +1,241 @@
+{
+  "schema_version": 2,
+  "lesson_id": "suomi-beginner-lesson-2",
+  "target_language": "fi-FI",
+  "units": [
+    {
+      "id": "fi.lesson-002.introduced.01-hyvaa-huomenta",
+      "type": "expression",
+      "canonical_form": "Hyvää huomenta.",
+      "translations": {
+        "fr-FR": "Bonjour (le matin)."
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true,
+      "review_status": "needs_human_review",
+      "curriculum_role": "introduced"
+    },
+    {
+      "id": "fi.lesson-002.introduced.02-hyvaa-paivaa",
+      "type": "expression",
+      "canonical_form": "Hyvää päivää.",
+      "translations": {
+        "fr-FR": "Bonjour (dans la journée)."
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true,
+      "review_status": "needs_human_review",
+      "curriculum_role": "introduced"
+    },
+    {
+      "id": "fi.lesson-002.introduced.03-hyvaa-iltaa",
+      "type": "expression",
+      "canonical_form": "Hyvää iltaa.",
+      "translations": {
+        "fr-FR": "Bonsoir."
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true,
+      "review_status": "needs_human_review",
+      "curriculum_role": "introduced"
+    },
+    {
+      "id": "fi.lesson-002.introduced.04-mita-kuuluu",
+      "type": "expression",
+      "canonical_form": "Mitä kuuluu?",
+      "translations": {
+        "fr-FR": "Comment vas-tu ?"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true,
+      "review_status": "needs_human_review",
+      "curriculum_role": "introduced"
+    },
+    {
+      "id": "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos",
+      "type": "expression",
+      "canonical_form": "Minulle kuuluu hyvää, kiitos.",
+      "translations": {
+        "fr-FR": "Je vais bien, merci."
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true,
+      "review_status": "needs_human_review",
+      "curriculum_role": "introduced"
+    },
+    {
+      "id": "fi.lesson-002.introduced.06-enta-sinulle",
+      "type": "expression",
+      "canonical_form": "Entä sinulle?",
+      "translations": {
+        "fr-FR": "Et toi ?"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true,
+      "review_status": "needs_human_review",
+      "curriculum_role": "introduced"
+    },
+    {
+      "id": "fi.lesson-002.introduced.07-minullekin-kuuluu-hyvaa",
+      "type": "expression",
+      "canonical_form": "Minullekin kuuluu hyvää.",
+      "translations": {
+        "fr-FR": "Moi aussi, je vais bien."
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true,
+      "review_status": "needs_human_review",
+      "curriculum_role": "introduced"
+    },
+    {
+      "id": "fi.lesson-002.introduced.08-onko-sinulla-aikaa",
+      "type": "expression",
+      "canonical_form": "Onko sinulla aikaa?",
+      "translations": {
+        "fr-FR": "As-tu du temps ?"
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true,
+      "review_status": "needs_human_review",
+      "curriculum_role": "introduced"
+    },
+    {
+      "id": "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa",
+      "type": "expression",
+      "canonical_form": "Kyllä, minulla on vähän aikaa.",
+      "translations": {
+        "fr-FR": "Oui, j'ai un peu de temps."
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true,
+      "review_status": "needs_human_review",
+      "curriculum_role": "target"
+    },
+    {
+      "id": "fi.lesson-002.target.02-nahdaan-myohemmin",
+      "type": "expression",
+      "canonical_form": "Nähdään myöhemmin.",
+      "translations": {
+        "fr-FR": "À plus tard."
+      },
+      "register": "kirjakieli",
+      "flashcard_eligible": true,
+      "review_status": "needs_human_review",
+      "curriculum_role": "target"
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "unit_id": "fi.lesson-002.introduced.01-hyvaa-huomenta",
+        "role": "introduced",
+        "context_ids": [
+          "guided_practice",
+          "opening_conversation",
+          "reading"
+        ]
+      },
+      {
+        "unit_id": "fi.lesson-002.introduced.02-hyvaa-paivaa",
+        "role": "introduced",
+        "context_ids": [
+          "guided_practice",
+          "opening_conversation",
+          "reading"
+        ]
+      },
+      {
+        "unit_id": "fi.lesson-002.introduced.03-hyvaa-iltaa",
+        "role": "introduced",
+        "context_ids": [
+          "final_roleplay",
+          "guided_practice",
+          "opening_conversation",
+          "reading",
+          "transfer"
+        ]
+      },
+      {
+        "unit_id": "fi.lesson-002.introduced.04-mita-kuuluu",
+        "role": "introduced",
+        "context_ids": [
+          "final_roleplay",
+          "guided_practice",
+          "opening_conversation",
+          "reading",
+          "transfer"
+        ]
+      },
+      {
+        "unit_id": "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos",
+        "role": "introduced",
+        "context_ids": [
+          "final_roleplay",
+          "guided_practice",
+          "opening_conversation",
+          "reading",
+          "transfer"
+        ]
+      },
+      {
+        "unit_id": "fi.lesson-002.introduced.06-enta-sinulle",
+        "role": "introduced",
+        "context_ids": [
+          "final_roleplay",
+          "guided_practice",
+          "opening_conversation",
+          "reading",
+          "transfer"
+        ]
+      },
+      {
+        "unit_id": "fi.lesson-002.introduced.07-minullekin-kuuluu-hyvaa",
+        "role": "introduced",
+        "context_ids": [
+          "final_roleplay",
+          "guided_practice",
+          "transfer"
+        ]
+      },
+      {
+        "unit_id": "fi.lesson-002.introduced.08-onko-sinulla-aikaa",
+        "role": "introduced",
+        "context_ids": [
+          "final_roleplay",
+          "guided_practice",
+          "transfer"
+        ]
+      },
+      {
+        "unit_id": "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa",
+        "role": "target",
+        "context_ids": [
+          "final_roleplay",
+          "guided_practice",
+          "transfer"
+        ]
+      },
+      {
+        "unit_id": "fi.lesson-002.target.02-nahdaan-myohemmin",
+        "role": "target",
+        "context_ids": [
+          "final_roleplay",
+          "guided_practice",
+          "transfer"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from": "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa",
+        "to": "fi.lesson-002.introduced.01-hyvaa-huomenta",
+        "relation": "builds_on"
+      },
+      {
+        "from": "fi.lesson-002.target.02-nahdaan-myohemmin",
+        "to": "fi.lesson-002.introduced.01-hyvaa-huomenta",
+        "relation": "builds_on"
+      }
+    ]
+  }
+}

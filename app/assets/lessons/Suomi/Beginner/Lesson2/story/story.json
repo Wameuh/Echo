@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "lesson_id": "suomi-beginner-lesson-2",
+  "id": "lesson2-a-day-of-greetings",
+  "title": {
+    "fr-FR": "Une journée de salutations"
+  },
+  "presentation": "ui_bubbles_over_image",
+  "media_status": "generated",
+  "panels": [
+    {
+      "id": "story-panel-001",
+      "image": "art/comic-01-morning.png",
+      "caption": {
+        "fr-FR": "Au petit matin, Anna retrouve Mikko à un arrêt de tram enneigé."
+      },
+      "image_label": {
+        "fr-FR": "Anna et Mikko se saluent à un arrêt de tram d'Helsinki au lever du jour."
+      },
+      "bubbles": [
+        {
+          "line_id": "line-002",
+          "speaker": "anna",
+          "anchor": "upper_left"
+        }
+      ]
+    },
+    {
+      "id": "story-panel-002",
+      "image": "art/comic-02-day.png",
+      "caption": {
+        "fr-FR": "À midi, ils se croisent de nouveau à la bibliothèque."
+      },
+      "image_label": {
+        "fr-FR": "Anna et Mikko se saluent dans une bibliothèque lumineuse d'Helsinki."
+      },
+      "bubbles": [
+        {
+          "line_id": "line-003",
+          "speaker": "mikko",
+          "anchor": "upper_right"
+        }
+      ]
+    },
+    {
+      "id": "story-panel-003",
+      "image": "art/comic-03-evening.png",
+      "caption": {
+        "fr-FR": "Le soir, une troisième rencontre devient une vraie conversation."
+      },
+      "image_label": {
+        "fr-FR": "Anna et Mikko discutent devant un café d'Helsinki à la tombée de la nuit."
+      },
+      "bubbles": [
+        {
+          "line_id": "line-004",
+          "speaker": "anna",
+          "anchor": "upper_left"
+        },
+        {
+          "line_id": "line-005",
+          "speaker": "mikko",
+          "anchor": "upper_right"
+        }
+      ]
+    },
+    {
+      "id": "story-panel-004",
+      "image": "art/comic-04-how-are-you.png",
+      "caption": {
+        "fr-FR": "À l'abri du froid, Anna répond et Mikko relance l'échange."
+      },
+      "image_label": {
+        "fr-FR": "Anna répond à Mikko dans l'entrée chaleureuse d'un café."
+      },
+      "bubbles": [
+        {
+          "line_id": "line-006",
+          "speaker": "anna",
+          "anchor": "upper_left"
+        },
+        {
+          "line_id": "line-007",
+          "speaker": "mikko",
+          "anchor": "upper_right"
+        }
+      ]
+    }
+  ]
+}

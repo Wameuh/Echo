@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="t1">
+  <title id="t1">Echo Resonance</title>
+  <rect x="6" y="6" width="116" height="116" rx="38" fill="#17352C"/>
+  <path d="M35 67c1-21 15-35 35-35 19 0 33 13 34 32H35c1 20 15 33 36 33 12 0 22-5 29-13" fill="none" stroke="#D8F277" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="104" cy="67" r="8" fill="#FF7657"/>
+</svg>

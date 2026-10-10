@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "lesson_id": "suomi-beginner-lesson-2",
+  "questions": [
+    {
+      "id": "opening-question-001",
+      "type": "short_answer",
+      "prompt": {
+        "fr-FR": "Quelle expression finnoise ouvre l'échange ?"
+      },
+      "accepted_answers": [
+        "Hyvää huomenta."
+      ],
+      "evidence_line_id": "line-002",
+      "unit_ids": [
+        "fi.lesson-002.introduced.01-hyvaa-huomenta"
+      ],
+      "review_status": "needs_human_review"
+    }
+  ]
+}

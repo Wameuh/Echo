@@ -1,0 +1,3215 @@
+{
+  "schema_version": 2,
+  "lesson": {
+    "id": "suomi-beginner-lesson-2",
+    "number": 2,
+    "title": "Saluer et demander des nouvelles",
+    "target_language": "fi-FI",
+    "instruction_language": "fr-FR",
+    "register": "kirjakieli",
+    "learning_objectives": [
+      "Saluer selon le moment et demander comment va une personne.",
+      "Moments de la journée, Mitä kuuluu? et minulla on.",
+      "Employer les salutations adaptées et échanger brièvement sur son état."
+    ],
+    "course_id": "fi-core",
+    "module_id": "fi-a1-module-01",
+    "level": "A1",
+    "cefr_phase": "A1.1",
+    "checkpoint": false,
+    "milestone": null,
+    "editorial_status": "machine_draft"
+  },
+  "engine": {
+    "id": "higgs-tts-3",
+    "model": "bosonai/higgs-tts-3-4b",
+    "sample_rate_hz": 24000,
+    "output_format": "wav",
+    "temperature": 0.5,
+    "top_k": 30,
+    "max_new_tokens": 512,
+    "default_seed": 42200,
+    "default_pause_after_ms": 450,
+    "prompt_mode": "plain_text"
+  },
+  "voices": {
+    "narrator": {
+      "display_name": "Narrator",
+      "role": "French instruction narrator",
+      "gender": "female",
+      "language": "fr-FR",
+      "reference_audio": null,
+      "reference_text": null,
+      "reference_status": "required_before_audio_generation",
+      "defaults": {
+        "emotion": "encouraging",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal"
+      }
+    },
+    "anna": {
+      "display_name": "Anna",
+      "role": "Finnish dialogue character",
+      "gender": "female",
+      "language": "fi-FI",
+      "reference_audio": null,
+      "reference_text": null,
+      "reference_status": "required_before_audio_generation",
+      "defaults": {
+        "emotion": "welcoming",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "high",
+        "style": "normal"
+      }
+    },
+    "mikko": {
+      "display_name": "Mikko",
+      "role": "Finnish dialogue character",
+      "gender": "male",
+      "language": "fi-FI",
+      "reference_audio": null,
+      "reference_text": null,
+      "reference_status": "required_before_audio_generation",
+      "defaults": {
+        "emotion": "welcoming",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "high",
+        "style": "normal"
+      }
+    },
+    "finnish_speaker": {
+      "display_name": "Finnish speaker",
+      "role": "Finnish pronunciation model",
+      "gender": "unspecified",
+      "language": "fi-FI",
+      "reference_audio": "references/finnish-native-2026-09-19/reference-happy-a.wav",
+      "reference_text": "Aurinko paistoi niin, että kadun asfaltti pehmeni, ja minun sydämeni oli niin täynnä iloa, että se melkein teki kipeää.",
+      "reference_status": "ready",
+      "defaults": {
+        "emotion": "content",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "low",
+        "style": "normal"
+      }
+    }
+  },
+  "export": {
+    "output_directory": "build/audio/suomi-beginner-lesson-2",
+    "combined_file": "lesson.wav",
+    "keep_individual_lines": true,
+    "normalization_lufs": -16,
+    "manifest_file": "manifest.json"
+  },
+  "dialogue": [
+    {
+      "id": "line-001",
+      "section": "opening_conversation",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Écoutez cette situation : Saluer et demander des nouvelles.",
+      "translations": {
+        "fr-FR": "Écoutez cette situation : Saluer et demander des nouvelles."
+      },
+      "intent": "introduce_dialogue",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [],
+      "generation": {
+        "seed": 50013
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-002",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Hyvää huomenta.",
+      "translations": {
+        "fr-FR": "Bonjour (le matin)."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.01-hyvaa-huomenta"
+      ],
+      "generation": {
+        "seed": 50026
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-003",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Hyvää päivää.",
+      "translations": {
+        "fr-FR": "Bonjour (dans la journée)."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.02-hyvaa-paivaa"
+      ],
+      "generation": {
+        "seed": 50039
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-004",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Hyvää iltaa.",
+      "translations": {
+        "fr-FR": "Bonsoir."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.03-hyvaa-iltaa"
+      ],
+      "generation": {
+        "seed": 50052
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-005",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Mitä kuuluu?",
+      "translations": {
+        "fr-FR": "Comment vas-tu ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.04-mita-kuuluu"
+      ],
+      "generation": {
+        "seed": 50065
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-006",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Minulle kuuluu hyvää, kiitos.",
+      "translations": {
+        "fr-FR": "Je vais bien, merci."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos"
+      ],
+      "generation": {
+        "seed": 50078
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-007",
+      "section": "opening_conversation",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Entä sinulle?",
+      "translations": {
+        "fr-FR": "Et toi ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.06-enta-sinulle"
+      ],
+      "generation": {
+        "seed": 50091
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-008",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Écoutez, répétez, puis répondez avant le modèle.",
+      "translations": {
+        "fr-FR": "Écoutez, répétez, puis répondez avant le modèle."
+      },
+      "intent": "introduce_practice",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [],
+      "generation": {
+        "seed": 50104
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-009",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Écoutez cette expression.",
+      "translations": {
+        "fr-FR": "Écoutez cette expression."
+      },
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.01-hyvaa-huomenta"
+      ],
+      "generation": {
+        "seed": 50117
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-010",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hyvää huomenta.",
+      "translations": {
+        "fr-FR": "Bonjour (le matin)."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.01-hyvaa-huomenta"
+      ],
+      "generation": {
+        "seed": 50130
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-011",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répétez après le modèle.",
+      "translations": {
+        "fr-FR": "Répétez après le modèle."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 4500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.01-hyvaa-huomenta"
+      ],
+      "generation": {
+        "seed": 50143
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-012",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hyvää huomenta.",
+      "translations": {
+        "fr-FR": "Bonjour (le matin)."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.01-hyvaa-huomenta"
+      ],
+      "generation": {
+        "seed": 50156
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-013",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites maintenant l'expression sans lire.",
+      "translations": {
+        "fr-FR": "Dites maintenant l'expression sans lire."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.01-hyvaa-huomenta"
+      ],
+      "generation": {
+        "seed": 50169
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-014",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hyvää huomenta.",
+      "translations": {
+        "fr-FR": "Bonjour (le matin)."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.01-hyvaa-huomenta"
+      ],
+      "generation": {
+        "seed": 50182
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-015",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répondez une dernière fois dans la situation.",
+      "translations": {
+        "fr-FR": "Répondez une dernière fois dans la situation."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.01-hyvaa-huomenta"
+      ],
+      "generation": {
+        "seed": 50195
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-016",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hyvää huomenta.",
+      "translations": {
+        "fr-FR": "Bonjour (le matin)."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.01-hyvaa-huomenta"
+      ],
+      "generation": {
+        "seed": 50208
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-017",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Écoutez cette expression.",
+      "translations": {
+        "fr-FR": "Écoutez cette expression."
+      },
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.02-hyvaa-paivaa"
+      ],
+      "generation": {
+        "seed": 50221
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-018",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hyvää päivää.",
+      "translations": {
+        "fr-FR": "Bonjour (dans la journée)."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.02-hyvaa-paivaa"
+      ],
+      "generation": {
+        "seed": 50234
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-019",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répétez après le modèle.",
+      "translations": {
+        "fr-FR": "Répétez après le modèle."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 4500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.02-hyvaa-paivaa"
+      ],
+      "generation": {
+        "seed": 50247
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-020",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hyvää päivää.",
+      "translations": {
+        "fr-FR": "Bonjour (dans la journée)."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.02-hyvaa-paivaa"
+      ],
+      "generation": {
+        "seed": 50260
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-021",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites maintenant l'expression sans lire.",
+      "translations": {
+        "fr-FR": "Dites maintenant l'expression sans lire."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.02-hyvaa-paivaa"
+      ],
+      "generation": {
+        "seed": 50273
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-022",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hyvää päivää.",
+      "translations": {
+        "fr-FR": "Bonjour (dans la journée)."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.02-hyvaa-paivaa"
+      ],
+      "generation": {
+        "seed": 50286
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-023",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répondez une dernière fois dans la situation.",
+      "translations": {
+        "fr-FR": "Répondez une dernière fois dans la situation."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.02-hyvaa-paivaa"
+      ],
+      "generation": {
+        "seed": 50299
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-024",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hyvää päivää.",
+      "translations": {
+        "fr-FR": "Bonjour (dans la journée)."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.02-hyvaa-paivaa"
+      ],
+      "generation": {
+        "seed": 50312
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-025",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Écoutez cette expression.",
+      "translations": {
+        "fr-FR": "Écoutez cette expression."
+      },
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.03-hyvaa-iltaa"
+      ],
+      "generation": {
+        "seed": 50325
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-026",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hyvää iltaa.",
+      "translations": {
+        "fr-FR": "Bonsoir."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.03-hyvaa-iltaa"
+      ],
+      "generation": {
+        "seed": 50338
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-027",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répétez après le modèle.",
+      "translations": {
+        "fr-FR": "Répétez après le modèle."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 4500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.03-hyvaa-iltaa"
+      ],
+      "generation": {
+        "seed": 50351
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-028",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hyvää iltaa.",
+      "translations": {
+        "fr-FR": "Bonsoir."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.03-hyvaa-iltaa"
+      ],
+      "generation": {
+        "seed": 50364
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-029",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites maintenant l'expression sans lire.",
+      "translations": {
+        "fr-FR": "Dites maintenant l'expression sans lire."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.03-hyvaa-iltaa"
+      ],
+      "generation": {
+        "seed": 50377
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-030",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hyvää iltaa.",
+      "translations": {
+        "fr-FR": "Bonsoir."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.03-hyvaa-iltaa"
+      ],
+      "generation": {
+        "seed": 50390
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-031",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répondez une dernière fois dans la situation.",
+      "translations": {
+        "fr-FR": "Répondez une dernière fois dans la situation."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.03-hyvaa-iltaa"
+      ],
+      "generation": {
+        "seed": 50403
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-032",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Hyvää iltaa.",
+      "translations": {
+        "fr-FR": "Bonsoir."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.03-hyvaa-iltaa"
+      ],
+      "generation": {
+        "seed": 50416
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-033",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Écoutez cette expression.",
+      "translations": {
+        "fr-FR": "Écoutez cette expression."
+      },
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.04-mita-kuuluu"
+      ],
+      "generation": {
+        "seed": 50429
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-034",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Mitä kuuluu?",
+      "translations": {
+        "fr-FR": "Comment vas-tu ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.04-mita-kuuluu"
+      ],
+      "generation": {
+        "seed": 50442
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-035",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répétez après le modèle.",
+      "translations": {
+        "fr-FR": "Répétez après le modèle."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 4500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.04-mita-kuuluu"
+      ],
+      "generation": {
+        "seed": 50455
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-036",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Mitä kuuluu?",
+      "translations": {
+        "fr-FR": "Comment vas-tu ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.04-mita-kuuluu"
+      ],
+      "generation": {
+        "seed": 50468
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-037",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites maintenant l'expression sans lire.",
+      "translations": {
+        "fr-FR": "Dites maintenant l'expression sans lire."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.04-mita-kuuluu"
+      ],
+      "generation": {
+        "seed": 50481
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-038",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Mitä kuuluu?",
+      "translations": {
+        "fr-FR": "Comment vas-tu ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.04-mita-kuuluu"
+      ],
+      "generation": {
+        "seed": 50494
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-039",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répondez une dernière fois dans la situation.",
+      "translations": {
+        "fr-FR": "Répondez une dernière fois dans la situation."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.04-mita-kuuluu"
+      ],
+      "generation": {
+        "seed": 50507
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-040",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Mitä kuuluu?",
+      "translations": {
+        "fr-FR": "Comment vas-tu ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.04-mita-kuuluu"
+      ],
+      "generation": {
+        "seed": 50520
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-041",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Écoutez cette expression.",
+      "translations": {
+        "fr-FR": "Écoutez cette expression."
+      },
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos"
+      ],
+      "generation": {
+        "seed": 50533
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-042",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Minulle kuuluu hyvää, kiitos.",
+      "translations": {
+        "fr-FR": "Je vais bien, merci."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos"
+      ],
+      "generation": {
+        "seed": 50546
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-043",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répétez après le modèle.",
+      "translations": {
+        "fr-FR": "Répétez après le modèle."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 4500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos"
+      ],
+      "generation": {
+        "seed": 50559
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-044",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Minulle kuuluu hyvää, kiitos.",
+      "translations": {
+        "fr-FR": "Je vais bien, merci."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos"
+      ],
+      "generation": {
+        "seed": 50572
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-045",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites maintenant l'expression sans lire.",
+      "translations": {
+        "fr-FR": "Dites maintenant l'expression sans lire."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos"
+      ],
+      "generation": {
+        "seed": 50585
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-046",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Minulle kuuluu hyvää, kiitos.",
+      "translations": {
+        "fr-FR": "Je vais bien, merci."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos"
+      ],
+      "generation": {
+        "seed": 50598
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-047",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répondez une dernière fois dans la situation.",
+      "translations": {
+        "fr-FR": "Répondez une dernière fois dans la situation."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos"
+      ],
+      "generation": {
+        "seed": 50611
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-048",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Minulle kuuluu hyvää, kiitos.",
+      "translations": {
+        "fr-FR": "Je vais bien, merci."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos"
+      ],
+      "generation": {
+        "seed": 50624
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-049",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Écoutez cette expression.",
+      "translations": {
+        "fr-FR": "Écoutez cette expression."
+      },
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.06-enta-sinulle"
+      ],
+      "generation": {
+        "seed": 50637
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-050",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Entä sinulle?",
+      "translations": {
+        "fr-FR": "Et toi ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.06-enta-sinulle"
+      ],
+      "generation": {
+        "seed": 50650
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-051",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répétez après le modèle.",
+      "translations": {
+        "fr-FR": "Répétez après le modèle."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 4500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.06-enta-sinulle"
+      ],
+      "generation": {
+        "seed": 50663
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-052",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Entä sinulle?",
+      "translations": {
+        "fr-FR": "Et toi ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.06-enta-sinulle"
+      ],
+      "generation": {
+        "seed": 50676
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-053",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites maintenant l'expression sans lire.",
+      "translations": {
+        "fr-FR": "Dites maintenant l'expression sans lire."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.06-enta-sinulle"
+      ],
+      "generation": {
+        "seed": 50689
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-054",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Entä sinulle?",
+      "translations": {
+        "fr-FR": "Et toi ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.06-enta-sinulle"
+      ],
+      "generation": {
+        "seed": 50702
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-055",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répondez une dernière fois dans la situation.",
+      "translations": {
+        "fr-FR": "Répondez une dernière fois dans la situation."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.06-enta-sinulle"
+      ],
+      "generation": {
+        "seed": 50715
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-056",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Entä sinulle?",
+      "translations": {
+        "fr-FR": "Et toi ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.06-enta-sinulle"
+      ],
+      "generation": {
+        "seed": 50728
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-057",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Écoutez cette expression.",
+      "translations": {
+        "fr-FR": "Écoutez cette expression."
+      },
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.07-minullekin-kuuluu-hyvaa"
+      ],
+      "generation": {
+        "seed": 50741
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-058",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Minullekin kuuluu hyvää.",
+      "translations": {
+        "fr-FR": "Moi aussi, je vais bien."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.07-minullekin-kuuluu-hyvaa"
+      ],
+      "generation": {
+        "seed": 50754
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-059",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répétez après le modèle.",
+      "translations": {
+        "fr-FR": "Répétez après le modèle."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 4500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.07-minullekin-kuuluu-hyvaa"
+      ],
+      "generation": {
+        "seed": 50767
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-060",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Minullekin kuuluu hyvää.",
+      "translations": {
+        "fr-FR": "Moi aussi, je vais bien."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.07-minullekin-kuuluu-hyvaa"
+      ],
+      "generation": {
+        "seed": 50780
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-061",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites maintenant l'expression sans lire.",
+      "translations": {
+        "fr-FR": "Dites maintenant l'expression sans lire."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.07-minullekin-kuuluu-hyvaa"
+      ],
+      "generation": {
+        "seed": 50793
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-062",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Minullekin kuuluu hyvää.",
+      "translations": {
+        "fr-FR": "Moi aussi, je vais bien."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.07-minullekin-kuuluu-hyvaa"
+      ],
+      "generation": {
+        "seed": 50806
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-063",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répondez une dernière fois dans la situation.",
+      "translations": {
+        "fr-FR": "Répondez une dernière fois dans la situation."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.07-minullekin-kuuluu-hyvaa"
+      ],
+      "generation": {
+        "seed": 50819
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-064",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Minullekin kuuluu hyvää.",
+      "translations": {
+        "fr-FR": "Moi aussi, je vais bien."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.07-minullekin-kuuluu-hyvaa"
+      ],
+      "generation": {
+        "seed": 50832
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-065",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Écoutez cette expression.",
+      "translations": {
+        "fr-FR": "Écoutez cette expression."
+      },
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.08-onko-sinulla-aikaa"
+      ],
+      "generation": {
+        "seed": 50845
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-066",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Onko sinulla aikaa?",
+      "translations": {
+        "fr-FR": "As-tu du temps ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.08-onko-sinulla-aikaa"
+      ],
+      "generation": {
+        "seed": 50858
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-067",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répétez après le modèle.",
+      "translations": {
+        "fr-FR": "Répétez après le modèle."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 4500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.08-onko-sinulla-aikaa"
+      ],
+      "generation": {
+        "seed": 50871
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-068",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Onko sinulla aikaa?",
+      "translations": {
+        "fr-FR": "As-tu du temps ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.08-onko-sinulla-aikaa"
+      ],
+      "generation": {
+        "seed": 50884
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-069",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites maintenant l'expression sans lire.",
+      "translations": {
+        "fr-FR": "Dites maintenant l'expression sans lire."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.08-onko-sinulla-aikaa"
+      ],
+      "generation": {
+        "seed": 50897
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-070",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Onko sinulla aikaa?",
+      "translations": {
+        "fr-FR": "As-tu du temps ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.08-onko-sinulla-aikaa"
+      ],
+      "generation": {
+        "seed": 50910
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-071",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répondez une dernière fois dans la situation.",
+      "translations": {
+        "fr-FR": "Répondez une dernière fois dans la situation."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.08-onko-sinulla-aikaa"
+      ],
+      "generation": {
+        "seed": 50923
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-072",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Onko sinulla aikaa?",
+      "translations": {
+        "fr-FR": "As-tu du temps ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.08-onko-sinulla-aikaa"
+      ],
+      "generation": {
+        "seed": 50936
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-073",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Écoutez cette expression.",
+      "translations": {
+        "fr-FR": "Écoutez cette expression."
+      },
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa"
+      ],
+      "generation": {
+        "seed": 50949
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-074",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Kyllä, minulla on vähän aikaa.",
+      "translations": {
+        "fr-FR": "Oui, j'ai un peu de temps."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa"
+      ],
+      "generation": {
+        "seed": 50962
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-075",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répétez après le modèle.",
+      "translations": {
+        "fr-FR": "Répétez après le modèle."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 4500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa"
+      ],
+      "generation": {
+        "seed": 50975
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-076",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Kyllä, minulla on vähän aikaa.",
+      "translations": {
+        "fr-FR": "Oui, j'ai un peu de temps."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa"
+      ],
+      "generation": {
+        "seed": 50988
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-077",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites maintenant l'expression sans lire.",
+      "translations": {
+        "fr-FR": "Dites maintenant l'expression sans lire."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa"
+      ],
+      "generation": {
+        "seed": 51001
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-078",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Kyllä, minulla on vähän aikaa.",
+      "translations": {
+        "fr-FR": "Oui, j'ai un peu de temps."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa"
+      ],
+      "generation": {
+        "seed": 51014
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-079",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répondez une dernière fois dans la situation.",
+      "translations": {
+        "fr-FR": "Répondez une dernière fois dans la situation."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa"
+      ],
+      "generation": {
+        "seed": 51027
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-080",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Kyllä, minulla on vähän aikaa.",
+      "translations": {
+        "fr-FR": "Oui, j'ai un peu de temps."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa"
+      ],
+      "generation": {
+        "seed": 51040
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-081",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Écoutez cette expression.",
+      "translations": {
+        "fr-FR": "Écoutez cette expression."
+      },
+      "intent": "introduce_or_model_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.02-nahdaan-myohemmin"
+      ],
+      "generation": {
+        "seed": 51053
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-082",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Nähdään myöhemmin.",
+      "translations": {
+        "fr-FR": "À plus tard."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.02-nahdaan-myohemmin"
+      ],
+      "generation": {
+        "seed": 51066
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-083",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répétez après le modèle.",
+      "translations": {
+        "fr-FR": "Répétez après le modèle."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 4500,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.02-nahdaan-myohemmin"
+      ],
+      "generation": {
+        "seed": 51079
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-084",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Nähdään myöhemmin.",
+      "translations": {
+        "fr-FR": "À plus tard."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.02-nahdaan-myohemmin"
+      ],
+      "generation": {
+        "seed": 51092
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-085",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Dites maintenant l'expression sans lire.",
+      "translations": {
+        "fr-FR": "Dites maintenant l'expression sans lire."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.02-nahdaan-myohemmin"
+      ],
+      "generation": {
+        "seed": 51105
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-086",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Nähdään myöhemmin.",
+      "translations": {
+        "fr-FR": "À plus tard."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.02-nahdaan-myohemmin"
+      ],
+      "generation": {
+        "seed": 51118
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-087",
+      "section": "guided_practice",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Répondez une dernière fois dans la situation.",
+      "translations": {
+        "fr-FR": "Répondez une dernière fois dans la situation."
+      },
+      "intent": "prompt_learner_response",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.02-nahdaan-myohemmin"
+      ],
+      "generation": {
+        "seed": 51131
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-088",
+      "section": "guided_practice",
+      "kind": "target_utterance",
+      "speaker": "finnish_speaker",
+      "language": "fi-FI",
+      "text": "Nähdään myöhemmin.",
+      "translations": {
+        "fr-FR": "À plus tard."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.02-nahdaan-myohemmin"
+      ],
+      "generation": {
+        "seed": 51144
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-089",
+      "section": "final_conversation_anna",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Jouez maintenant le rôle de Anna.",
+      "translations": {
+        "fr-FR": "Jouez maintenant le rôle de Anna."
+      },
+      "intent": "introduce_roleplay",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [],
+      "generation": {
+        "seed": 51157
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-090",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Hyvää iltaa.",
+      "translations": {
+        "fr-FR": "Bonsoir."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1200,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.03-hyvaa-iltaa"
+      ],
+      "generation": {
+        "seed": 51170
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-091",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Mitä kuuluu?",
+      "translations": {
+        "fr-FR": "Comment vas-tu ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.04-mita-kuuluu"
+      ],
+      "generation": {
+        "seed": 51183
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-092",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Minulle kuuluu hyvää, kiitos.",
+      "translations": {
+        "fr-FR": "Je vais bien, merci."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1200,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos"
+      ],
+      "generation": {
+        "seed": 51196
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-093",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Entä sinulle?",
+      "translations": {
+        "fr-FR": "Et toi ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.06-enta-sinulle"
+      ],
+      "generation": {
+        "seed": 51209
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-094",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Minullekin kuuluu hyvää.",
+      "translations": {
+        "fr-FR": "Moi aussi, je vais bien."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1200,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.07-minullekin-kuuluu-hyvaa"
+      ],
+      "generation": {
+        "seed": 51222
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-095",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Onko sinulla aikaa?",
+      "translations": {
+        "fr-FR": "As-tu du temps ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.08-onko-sinulla-aikaa"
+      ],
+      "generation": {
+        "seed": 51235
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-096",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Kyllä, minulla on vähän aikaa.",
+      "translations": {
+        "fr-FR": "Oui, j'ai un peu de temps."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1200,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa"
+      ],
+      "generation": {
+        "seed": 51248
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-097",
+      "section": "final_conversation_anna",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Nähdään myöhemmin.",
+      "translations": {
+        "fr-FR": "À plus tard."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.02-nahdaan-myohemmin"
+      ],
+      "generation": {
+        "seed": 51261
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-098",
+      "section": "final_conversation_mikko",
+      "kind": "instruction",
+      "speaker": "narrator",
+      "language": "fr-FR",
+      "text": "Jouez maintenant le rôle de Mikko.",
+      "translations": {
+        "fr-FR": "Jouez maintenant le rôle de Mikko."
+      },
+      "intent": "introduce_roleplay",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1000,
+        "inline_pauses": []
+      },
+      "unit_ids": [],
+      "generation": {
+        "seed": 51274
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-099",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Hyvää iltaa.",
+      "translations": {
+        "fr-FR": "Bonsoir."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.03-hyvaa-iltaa"
+      ],
+      "generation": {
+        "seed": 51287
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-100",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Mitä kuuluu?",
+      "translations": {
+        "fr-FR": "Comment vas-tu ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1200,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.04-mita-kuuluu"
+      ],
+      "generation": {
+        "seed": 51300
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-101",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Minulle kuuluu hyvää, kiitos.",
+      "translations": {
+        "fr-FR": "Je vais bien, merci."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos"
+      ],
+      "generation": {
+        "seed": 51313
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-102",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Entä sinulle?",
+      "translations": {
+        "fr-FR": "Et toi ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1200,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.06-enta-sinulle"
+      ],
+      "generation": {
+        "seed": 51326
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-103",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Minullekin kuuluu hyvää.",
+      "translations": {
+        "fr-FR": "Moi aussi, je vais bien."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.07-minullekin-kuuluu-hyvaa"
+      ],
+      "generation": {
+        "seed": 51339
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-104",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Onko sinulla aikaa?",
+      "translations": {
+        "fr-FR": "As-tu du temps ?"
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1200,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.introduced.08-onko-sinulla-aikaa"
+      ],
+      "generation": {
+        "seed": 51352
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    },
+    {
+      "id": "line-105",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "anna",
+      "language": "fi-FI",
+      "text": "Kyllä, minulla on vähän aikaa.",
+      "translations": {
+        "fr-FR": "Oui, j'ai un peu de temps."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 5000,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa"
+      ],
+      "generation": {
+        "seed": 51365
+      },
+      "pronunciation": []
+    },
+    {
+      "id": "line-106",
+      "section": "final_conversation_mikko",
+      "kind": "target_utterance",
+      "speaker": "mikko",
+      "language": "fi-FI",
+      "text": "Nähdään myöhemmin.",
+      "translations": {
+        "fr-FR": "À plus tard."
+      },
+      "intent": "model_target_phrase",
+      "direction": {
+        "emotion": "neutral",
+        "speed": "very_slow",
+        "pitch": "normal",
+        "expressiveness": "normal",
+        "style": "normal",
+        "pause_before_ms": 0,
+        "pause_after_ms": 1200,
+        "inline_pauses": []
+      },
+      "unit_ids": [
+        "fi.lesson-002.target.02-nahdaan-myohemmin"
+      ],
+      "generation": {
+        "seed": 51378
+      },
+      "pronunciation": [],
+      "role": "answer_key"
+    }
+  ],
+  "media_status": "pending"
+}

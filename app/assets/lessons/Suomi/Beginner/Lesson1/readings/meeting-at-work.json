@@ -1,0 +1,359 @@
+{
+  "schema_version": 1,
+  "id": "lesson1-reading-meeting-at-work",
+  "lesson_id": "suomi-beginner-lesson-1",
+  "title": {
+    "fr-FR": "Une rencontre au travail"
+  },
+  "target_language": "fi-FI",
+  "support_locales": [
+    "fr-FR"
+  ],
+  "context": {
+    "fr-FR": "Laura rencontre James dans le café où elle travaille."
+  },
+  "new_units": [
+    "fi.conjunction.ja",
+    "fi.noun.kahvila"
+  ],
+  "sentences": [
+    {
+      "id": "reading-01-sentence-001",
+      "speaker": "laura",
+      "text": "Hei! Minun nimeni on Laura. Olen suomalainen.",
+      "translations": {
+        "fr-FR": "Bonjour ! Je m’appelle Laura. Je suis finlandaise."
+      },
+      "tokens": [
+        {
+          "surface": "Hei",
+          "start": 0,
+          "end": 3,
+          "lemma": "hei",
+          "unit_id": "fi.greeting.hei",
+          "part_of_speech": "interjection",
+          "translation": "bonjour",
+          "grammar": {}
+        },
+        {
+          "surface": "Minun nimeni on",
+          "start": 5,
+          "end": 20,
+          "lemma": "minun nimi olla",
+          "unit_id": "fi.construction.minun-nimeni-on",
+          "part_of_speech": "expression",
+          "translation": "je m’appelle",
+          "grammar": {}
+        },
+        {
+          "surface": "Olen",
+          "start": 28,
+          "end": 32,
+          "lemma": "olla",
+          "unit_id": "fi.construction.olen",
+          "part_of_speech": "verb",
+          "translation": "je suis",
+          "grammar": {
+            "person": "first",
+            "number": "singular"
+          }
+        },
+        {
+          "surface": "suomalainen",
+          "start": 33,
+          "end": 44,
+          "lemma": "suomalainen",
+          "unit_id": "fi.adjective.suomalainen",
+          "part_of_speech": "adjective",
+          "translation": "finlandaise",
+          "grammar": {}
+        }
+      ]
+    },
+    {
+      "id": "reading-01-sentence-002",
+      "speaker": "laura",
+      "text": "Asun Helsingissä ja työskentelen kahvilassa.",
+      "translations": {
+        "fr-FR": "J’habite à Helsinki et je travaille dans un café."
+      },
+      "tokens": [
+        {
+          "surface": "Asun",
+          "start": 0,
+          "end": 4,
+          "lemma": "asua",
+          "unit_id": "fi.construction.asun",
+          "part_of_speech": "verb",
+          "translation": "j’habite",
+          "grammar": {
+            "person": "first",
+            "number": "singular"
+          }
+        },
+        {
+          "surface": "Helsingissä",
+          "start": 5,
+          "end": 16,
+          "lemma": "Helsinki",
+          "unit_id": "fi.place.helsinki",
+          "part_of_speech": "proper_noun",
+          "translation": "à Helsinki",
+          "grammar": {
+            "case": "inessive",
+            "number": "singular"
+          }
+        },
+        {
+          "surface": "ja",
+          "start": 17,
+          "end": 19,
+          "lemma": "ja",
+          "unit_id": "fi.conjunction.ja",
+          "part_of_speech": "conjunction",
+          "translation": "et",
+          "grammar": {}
+        },
+        {
+          "surface": "työskentelen",
+          "start": 20,
+          "end": 32,
+          "lemma": "työskennellä",
+          "unit_id": "fi.construction.tyoskentelen",
+          "part_of_speech": "verb",
+          "translation": "je travaille",
+          "grammar": {
+            "person": "first",
+            "number": "singular"
+          }
+        },
+        {
+          "surface": "kahvilassa",
+          "start": 33,
+          "end": 43,
+          "lemma": "kahvila",
+          "unit_id": "fi.noun.kahvila",
+          "part_of_speech": "noun",
+          "translation": "dans un café",
+          "grammar": {
+            "case": "inessive",
+            "number": "singular"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reading-01-sentence-003",
+      "speaker": "james",
+      "text": "Hei, Laura! Minä olen James.",
+      "translations": {
+        "fr-FR": "Bonjour, Laura ! Je suis James."
+      },
+      "tokens": [
+        {
+          "surface": "Hei",
+          "start": 0,
+          "end": 3,
+          "lemma": "hei",
+          "unit_id": "fi.greeting.hei",
+          "part_of_speech": "interjection",
+          "translation": "bonjour",
+          "grammar": {}
+        },
+        {
+          "surface": "Minä olen",
+          "start": 12,
+          "end": 21,
+          "lemma": "olla",
+          "unit_id": "fi.construction.olen",
+          "part_of_speech": "expression",
+          "translation": "je suis",
+          "grammar": {
+            "person": "first",
+            "number": "singular"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reading-01-sentence-004",
+      "speaker": "james",
+      "text": "Olen englantilainen ja asun Lontoossa.",
+      "translations": {
+        "fr-FR": "Je suis anglais et j’habite à Londres."
+      },
+      "tokens": [
+        {
+          "surface": "Olen",
+          "start": 0,
+          "end": 4,
+          "lemma": "olla",
+          "unit_id": "fi.construction.olen",
+          "part_of_speech": "verb",
+          "translation": "je suis",
+          "grammar": {
+            "person": "first",
+            "number": "singular"
+          }
+        },
+        {
+          "surface": "englantilainen",
+          "start": 5,
+          "end": 19,
+          "lemma": "englantilainen",
+          "unit_id": "fi.adjective.englantilainen",
+          "part_of_speech": "adjective",
+          "translation": "anglais",
+          "grammar": {}
+        },
+        {
+          "surface": "ja",
+          "start": 20,
+          "end": 22,
+          "lemma": "ja",
+          "unit_id": "fi.conjunction.ja",
+          "part_of_speech": "conjunction",
+          "translation": "et",
+          "grammar": {}
+        },
+        {
+          "surface": "asun",
+          "start": 23,
+          "end": 27,
+          "lemma": "asua",
+          "unit_id": "fi.construction.asun",
+          "part_of_speech": "verb",
+          "translation": "j’habite",
+          "grammar": {
+            "person": "first",
+            "number": "singular"
+          }
+        },
+        {
+          "surface": "Lontoossa",
+          "start": 28,
+          "end": 37,
+          "lemma": "Lontoo",
+          "unit_id": "fi.place.lontoo",
+          "part_of_speech": "proper_noun",
+          "translation": "à Londres",
+          "grammar": {
+            "case": "inessive",
+            "number": "singular"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reading-01-sentence-005",
+      "speaker": "laura",
+      "text": "Hauska tavata, James. Asutko Helsingissä?",
+      "translations": {
+        "fr-FR": "Enchantée, James. Est-ce que tu habites à Helsinki ?"
+      },
+      "tokens": [
+        {
+          "surface": "Hauska tavata",
+          "start": 0,
+          "end": 13,
+          "lemma": "hauska tavata",
+          "unit_id": "fi.expression.hauska-tavata",
+          "part_of_speech": "expression",
+          "translation": "enchantée",
+          "grammar": {}
+        },
+        {
+          "surface": "Asutko",
+          "start": 22,
+          "end": 28,
+          "lemma": "asua",
+          "unit_id": "fi.construction.asutko",
+          "part_of_speech": "verb",
+          "translation": "habites-tu",
+          "grammar": {
+            "person": "second",
+            "number": "singular",
+            "mood": "interrogative"
+          }
+        },
+        {
+          "surface": "Helsingissä",
+          "start": 29,
+          "end": 40,
+          "lemma": "Helsinki",
+          "unit_id": "fi.place.helsinki",
+          "part_of_speech": "proper_noun",
+          "translation": "à Helsinki",
+          "grammar": {
+            "case": "inessive",
+            "number": "singular"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reading-01-sentence-006",
+      "speaker": "james",
+      "text": "En asu Helsingissä. Asun Lontoossa.",
+      "translations": {
+        "fr-FR": "Je n’habite pas à Helsinki. J’habite à Londres."
+      },
+      "tokens": [
+        {
+          "surface": "En asu",
+          "start": 0,
+          "end": 6,
+          "lemma": "asua",
+          "unit_id": "fi.construction.en-asu",
+          "part_of_speech": "expression",
+          "translation": "je n’habite pas",
+          "grammar": {}
+        },
+        {
+          "surface": "Helsingissä",
+          "start": 7,
+          "end": 18,
+          "lemma": "Helsinki",
+          "unit_id": "fi.place.helsinki",
+          "part_of_speech": "proper_noun",
+          "translation": "à Helsinki",
+          "grammar": {
+            "case": "inessive",
+            "number": "singular"
+          }
+        },
+        {
+          "surface": "Asun",
+          "start": 20,
+          "end": 24,
+          "lemma": "asua",
+          "unit_id": "fi.construction.asun",
+          "part_of_speech": "verb",
+          "translation": "j’habite",
+          "grammar": {
+            "person": "first",
+            "number": "singular"
+          }
+        },
+        {
+          "surface": "Lontoossa",
+          "start": 25,
+          "end": 34,
+          "lemma": "Lontoo",
+          "unit_id": "fi.place.lontoo",
+          "part_of_speech": "proper_noun",
+          "translation": "à Londres",
+          "grammar": {
+            "case": "inessive",
+            "number": "singular"
+          }
+        }
+      ]
+    }
+  ],
+  "interaction": {
+    "sentence_translation_on_token_select": true,
+    "record_help_levels": true,
+    "audio_status": "not_generated"
+  }
+}

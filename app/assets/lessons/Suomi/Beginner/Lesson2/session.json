@@ -1,0 +1,92 @@
+{
+  "schema_version": 2,
+  "lesson_id": "suomi-beginner-lesson-2",
+  "adaptive": true,
+  "activities": [
+    {
+      "order": 1,
+      "type": "context",
+      "content_ref": "content.json#/lesson"
+    },
+    {
+      "order": 2,
+      "type": "audio_lesson",
+      "content_ref": "content.json#/dialogue"
+    },
+    {
+      "order": 3,
+      "type": "opening_comprehension",
+      "content_ref": "comprehension/opening-audio.json"
+    },
+    {
+      "order": 4,
+      "type": "roleplay",
+      "content_ref": "content.json#/dialogue"
+    },
+    {
+      "order": 5,
+      "type": "transition",
+      "content_ref": "readings/reading.json#/context"
+    },
+    {
+      "order": 6,
+      "type": "reading",
+      "content_ref": "readings/reading.json"
+    },
+    {
+      "order": 7,
+      "type": "reading_comprehension",
+      "content_ref": "comprehension/reading.json"
+    },
+    {
+      "order": 8,
+      "type": "memory",
+      "content_ref": "games/practice-set-01.json#/memory"
+    },
+    {
+      "order": 9,
+      "type": "adaptive_games",
+      "content_ref": "games/practice-set-01.json#/games"
+    },
+    {
+      "order": 10,
+      "type": "audio_transfer",
+      "content_ref": "transfer/transfer.json"
+    },
+    {
+      "order": 11,
+      "type": "guided_writing",
+      "content_ref": "writing/task.json"
+    },
+    {
+      "order": 12,
+      "type": "selective_flashcards",
+      "content_ref": "flashcards.json"
+    },
+    {
+      "order": 13,
+      "type": "summary_and_spacing",
+      "content_ref": "session.json#/progression"
+    }
+  ],
+  "progression": {
+    "failure": [
+      "same_day",
+      "next_day"
+    ],
+    "success_with_help_days": [
+      1,
+      2
+    ],
+    "autonomous_success_days": [
+      3
+    ],
+    "two_context_success_days": [
+      7
+    ],
+    "diversified_success_days": [
+      14,
+      30
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "lesson_id": "suomi-beginner-lesson-2",
+  "id": "writing-lesson-002",
+  "type": "guided_writing",
+  "prompt": {
+    "fr-FR": "Écrivez environ 2 phrases pour accomplir l'objectif suivant : Saluer selon le moment et demander comment va une personne."
+  },
+  "minimum_sentences": 2,
+  "target_unit_ids": [
+    "fi.lesson-002.introduced.01-hyvaa-huomenta",
+    "fi.lesson-002.introduced.02-hyvaa-paivaa",
+    "fi.lesson-002.introduced.03-hyvaa-iltaa",
+    "fi.lesson-002.introduced.04-mita-kuuluu",
+    "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos",
+    "fi.lesson-002.introduced.06-enta-sinulle",
+    "fi.lesson-002.introduced.07-minullekin-kuuluu-hyvaa",
+    "fi.lesson-002.introduced.08-onko-sinulla-aikaa",
+    "fi.lesson-002.target.01-kylla-minulla-on-vahan-aikaa",
+    "fi.lesson-002.target.02-nahdaan-myohemmin"
+  ],
+  "assessment": "self_assessment_with_model",
+  "model_status": "needs_human_review"
+}

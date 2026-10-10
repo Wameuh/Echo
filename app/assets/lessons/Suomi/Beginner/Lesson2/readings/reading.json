@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "lesson_id": "suomi-beginner-lesson-2",
+  "id": "reading-lesson-002",
+  "title": {
+    "fr-FR": "Lecture — Saluer et demander des nouvelles"
+  },
+  "context": {
+    "fr-FR": "Retrouvez les constructions de la leçon dans un second échange."
+  },
+  "review_status": "needs_human_review",
+  "sentences": [
+    {
+      "id": "reading-sentence-001",
+      "speaker": "sofia",
+      "text": "Hyvää huomenta.",
+      "translations": {
+        "fr-FR": "Bonjour (le matin)."
+      },
+      "tokens": [
+        {
+          "surface": "Hyvää huomenta.",
+          "start": 0,
+          "end": 15,
+          "lemma": "Hyvää huomenta.",
+          "unit_id": "fi.lesson-002.introduced.01-hyvaa-huomenta",
+          "translation": "Bonjour (le matin).",
+          "grammar": {}
+        }
+      ]
+    },
+    {
+      "id": "reading-sentence-002",
+      "speaker": "daniel",
+      "text": "Hyvää päivää.",
+      "translations": {
+        "fr-FR": "Bonjour (dans la journée)."
+      },
+      "tokens": [
+        {
+          "surface": "Hyvää päivää.",
+          "start": 0,
+          "end": 13,
+          "lemma": "Hyvää päivää.",
+          "unit_id": "fi.lesson-002.introduced.02-hyvaa-paivaa",
+          "translation": "Bonjour (dans la journée).",
+          "grammar": {}
+        }
+      ]
+    },
+    {
+      "id": "reading-sentence-003",
+      "speaker": "sofia",
+      "text": "Hyvää iltaa.",
+      "translations": {
+        "fr-FR": "Bonsoir."
+      },
+      "tokens": [
+        {
+          "surface": "Hyvää iltaa.",
+          "start": 0,
+          "end": 12,
+          "lemma": "Hyvää iltaa.",
+          "unit_id": "fi.lesson-002.introduced.03-hyvaa-iltaa",
+          "translation": "Bonsoir.",
+          "grammar": {}
+        }
+      ]
+    },
+    {
+      "id": "reading-sentence-004",
+      "speaker": "daniel",
+      "text": "Mitä kuuluu?",
+      "translations": {
+        "fr-FR": "Comment vas-tu ?"
+      },
+      "tokens": [
+        {
+          "surface": "Mitä kuuluu?",
+          "start": 0,
+          "end": 12,
+          "lemma": "Mitä kuuluu?",
+          "unit_id": "fi.lesson-002.introduced.04-mita-kuuluu",
+          "translation": "Comment vas-tu ?",
+          "grammar": {}
+        }
+      ]
+    },
+    {
+      "id": "reading-sentence-005",
+      "speaker": "sofia",
+      "text": "Minulle kuuluu hyvää, kiitos.",
+      "translations": {
+        "fr-FR": "Je vais bien, merci."
+      },
+      "tokens": [
+        {
+          "surface": "Minulle kuuluu hyvää, kiitos.",
+          "start": 0,
+          "end": 29,
+          "lemma": "Minulle kuuluu hyvää, kiitos.",
+          "unit_id": "fi.lesson-002.introduced.05-minulle-kuuluu-hyvaa-kiitos",
+          "translation": "Je vais bien, merci.",
+          "grammar": {}
+        }
+      ]
+    },
+    {
+      "id": "reading-sentence-006",
+      "speaker": "daniel",
+      "text": "Entä sinulle?",
+      "translations": {
+        "fr-FR": "Et toi ?"
+      },
+      "tokens": [
+        {
+          "surface": "Entä sinulle?",
+          "start": 0,
+          "end": 13,
+          "lemma": "Entä sinulle?",
+          "unit_id": "fi.lesson-002.introduced.06-enta-sinulle",
+          "translation": "Et toi ?",
+          "grammar": {}
+        }
+      ]
+    }
+  ]
+}

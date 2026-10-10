@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="t7">
+  <title id="t7">Echo Portals</title>
+  <rect x="6" y="6" width="116" height="116" rx="28" fill="#D8F277"/>
+  <path d="M103 29H62a35 35 0 0 0 0 70h41M103 45H63a19 19 0 0 0 0 38h40M103 61H64a3 3 0 0 0 0 6h39" fill="none" stroke="#17352C" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="103" cy="99" r="8" fill="#FF7657"/>
+</svg>

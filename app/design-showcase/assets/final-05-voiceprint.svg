@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Echo Voiceprint, version affinée</title>
+  <rect x="6" y="6" width="116" height="116" rx="38" fill="#17352C"/>
+  <path d="M29 54v20M43 42v44M57 30v68M71 39v50M85 48v32M99 56v16" fill="none" stroke="#D8F277" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="99" cy="91" r="8" fill="#FF7657"/>
+</svg>
