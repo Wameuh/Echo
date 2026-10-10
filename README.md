@@ -16,3 +16,7 @@ Le pipeline Higgs et les recherches de génération audio sont conservés locale
 de maquettes visuelles sont également conservés localement sans être suivis par Git.
 
 Pour démarrer ou vérifier l’application, consulter [`app/README.md`](app/README.md).
+
+## Licence
+
+Le projet est distribué sous licence MIT. Voir [LICENSE](LICENSE).
